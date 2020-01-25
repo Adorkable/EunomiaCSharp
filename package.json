@@ -1,0 +1,19 @@
+{
+  "name": "com.adorkable.eunomia-csharp",
+  "displayName": "Eunomia C#",
+  "version": "1.0.0",
+  "unity": "2019.2",
+  "category": "Library/Utility",
+  "keywords": [
+    "package",
+    "unity"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian G <yo.ian.g@gmail.com>",
+  "license": "ISC"
+}
