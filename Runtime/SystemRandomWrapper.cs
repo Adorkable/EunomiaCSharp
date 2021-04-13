@@ -20,32 +20,32 @@ namespace Eunomia
         }
 
         /// Serialization and Deserialization
-        private static string SystemRandomKey = "System.Random";
+        private const string SystemRandomKey = "System.Random";
 
         public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
         {
             byte[] systemRandomSerialization = SerializeSystemRandom();
 
-            info.AddValue(SystemRandomWrapper.SystemRandomKey, systemRandomSerialization);
+            info.AddValue(SystemRandomKey, systemRandomSerialization);
         }
 
         protected SystemRandomWrapper(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
         {
-            var systemRandomSerialization = (byte[])info.GetValue(SystemRandomWrapper.SystemRandomKey, typeof(byte[]));
+            var systemRandomSerialization = (byte[])info.GetValue(SystemRandomKey, typeof(byte[]));
 
-            this.DeserializeSystemRandom(systemRandomSerialization);
+            DeserializeSystemRandom(systemRandomSerialization);
         }
 
-        private byte[] systemRandomSerialization;
+        private readonly byte[] systemRandomSerialization;
         private byte[] SerializeSystemRandom()
         {
-            if (this.random == null)
+            if (random == null)
             {
                 return new byte[] { };
             }
             var buffer = new System.IO.MemoryStream();
             System.Runtime.Serialization.IFormatter binaryFormatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
-            binaryFormatter.Serialize(buffer, this.random);
+            binaryFormatter.Serialize(buffer, random);
             return buffer.ToArray();
         }
 
@@ -58,7 +58,7 @@ namespace Eunomia
             var buffer = new System.IO.MemoryStream(serialization);
 
             System.Runtime.Serialization.IFormatter binaryFormatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
-            this.random = (System.Random)binaryFormatter.Deserialize(buffer);
+            random = (System.Random)binaryFormatter.Deserialize(buffer);
         }
 
         // void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize() {

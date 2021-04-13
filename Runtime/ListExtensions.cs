@@ -28,7 +28,10 @@ namespace Eunomia
         public static IList<T> RemoveAll<T>(this IList<T> listToRemoveFrom, IList<T> remove) where T : ICloneable
         {
             var result = listToRemoveFrom.Clone();
-            remove.ForEach(value => listToRemoveFrom.Remove(value));
+            remove.ForEach(value =>
+            {
+                listToRemoveFrom.Remove(value);
+            });
             return result;
         }
     }
