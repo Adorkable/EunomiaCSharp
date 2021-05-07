@@ -23,6 +23,7 @@ namespace Eunomia
             return value;
         }
 
+        /// <exception cref="System.OverflowException">If within == 0</exception>
         public static int ClampUpperExclusive(this int value, int within)
         {
             if (within == 0)

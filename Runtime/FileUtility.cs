@@ -6,6 +6,12 @@ namespace Eunomia
 {
     public static class FileUtility
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.FileNotFoundException"></exception>
         public static async Task<string> ReadFile(string fileName)
         {
             if (!File.Exists(fileName))

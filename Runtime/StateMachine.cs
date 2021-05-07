@@ -68,6 +68,7 @@ namespace Eunomia
             public Func<Task> performAfterEnter;
             public Action performAfterEnterSync;
 
+            /// <exception cref="Eunomia.StateMachine{TState}.InvalidTransitionException"></exception>
             public Transition GetStateTransition(TState to)
             {
                 var findResult = transitions.Find((transition, index) => transition.to.Equals(to));
@@ -200,6 +201,7 @@ namespace Eunomia
             }
         }
 
+        /// <exception cref="Eunomia.StateMachine{TState}.InvalidTransitionException"></exception>
         private Transition GetStateTransition(TState to)
         {
             try
@@ -235,6 +237,9 @@ namespace Eunomia
             }
         }
 
+        /// <exception cref="Eunomia.StateMachine{TState}.AttemptedTransitionDuringTransitionException"></exception>
+        /// <exception cref="Eunomia.StateMachine{TState}.InvalidTransitionException"></exception>
+        /// <exception cref="System.AggregateException"></exception>
         public async Task SetState(TState to)
         {
             lock (this)
