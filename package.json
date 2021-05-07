@@ -1,14 +1,13 @@
 {
   "name": "com.adorkable.eunomia-csharp",
   "displayName": "Eunomia C#",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "unity": "2019.2",
   "category": "Library/Utility",
   "keywords": [
     "package",
     "unity"
   ],
-  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
