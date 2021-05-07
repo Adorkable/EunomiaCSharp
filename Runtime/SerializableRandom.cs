@@ -3,11 +3,11 @@
 namespace Eunomia
 {
     [System.Serializable]
-    public class SystemRandomWrapper : System.Runtime.Serialization.ISerializable
+    public class SerializableRandom : System.Runtime.Serialization.ISerializable
     {
         private System.Random random;
 
-        public SystemRandomWrapper(System.Random random = null)
+        public SerializableRandom(System.Random random = null)
         {
             if (random != null)
             {
@@ -17,6 +17,11 @@ namespace Eunomia
             {
                 this.random = new System.Random();
             }
+        }
+
+        public SerializableRandom(int seed)
+        {
+            random = new System.Random(seed);
         }
 
         /// Serialization and Deserialization
@@ -29,7 +34,7 @@ namespace Eunomia
             info.AddValue(SystemRandomKey, systemRandomSerialization);
         }
 
-        protected SystemRandomWrapper(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
+        protected SerializableRandom(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
         {
             var systemRandomSerialization = (byte[])info.GetValue(SystemRandomKey, typeof(byte[]));
 
