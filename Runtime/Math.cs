@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Numerics;
 
 namespace Eunomia
 {
@@ -21,6 +21,25 @@ namespace Eunomia
                 newHeight = content.Item2 * match.Item1 / content.Item1;
             }
             return (newWidth, newHeight);
+        }
+
+        public static Vector2 FitWithAspect(Vector2 content, Vector2 match)
+        {
+            var ratio = content.X / content.Y;
+            var ratioMatch = match.X / match.Y;
+
+            float newWidth, newHeight;
+            if (ratioMatch > ratio)
+            {
+                newWidth = content.X * match.Y / content.Y;
+                newHeight = match.Y;
+            }
+            else
+            {
+                newWidth = match.X;
+                newHeight = content.Y * match.X / content.Y;
+            }
+            return new Vector2(newWidth, newHeight);
         }
     }
 }

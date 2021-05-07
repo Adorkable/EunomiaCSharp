@@ -1,12 +1,30 @@
-namespace Eunomia {
-    public class Arrays {
-        public static T[] AddToBack<T>(T add, T[] to) {
-            var result = new T[to.Length + 1];
-            for (int index = 0; index < to.Length; index++) {
-                result[index] = to[index];
-            }
-            result[result.Length - 1] = add;
+using System;
+using System.Linq;
+
+namespace Eunomia
+{
+    public class Arrays
+    {
+        /// <summary>
+        /// Create a new array with an element added to the end
+        /// </summary>
+        /// <param name="add">Element to add</param>
+        /// <param name="to">Array to add to</param>
+        /// <returns>New array with `add` param added to the end</returns>
+        public static T[] AddToBack<T>(T add, T[] to)
+        {
+            T[] result = to;
+
+            AddToBack(add, ref result);
+
             return result;
+        }
+
+        public static void AddToBack<T>(T add, ref T[] to)
+        {
+            Array.Resize(ref to, to.Length + 1);
+
+            to[to.Length - 1] = add;
         }
     }
 }
