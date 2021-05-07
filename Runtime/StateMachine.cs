@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Eunomia
@@ -291,6 +290,7 @@ namespace Eunomia
                 }
             }
 
+            // TODO: does accessing Current need to be under lock?
             Current = to;
 
             lock (this)
@@ -325,8 +325,7 @@ namespace Eunomia
 
             if (unhandledExceptions.Count > 0 && (logUnhandledExceptions == null || throwIfLogged))
             {
-                // TODO: create exception with all
-                throw unhandledExceptions.First();
+                throw new AggregateException(unhandledExceptions);
             }
         }
     };
