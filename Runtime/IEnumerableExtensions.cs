@@ -140,6 +140,11 @@ namespace Eunomia
             return true;
         }
 
+        private static System.Random RandomFactory()
+        {
+            return new Random((int)(new DateTime()).Ticks);
+        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -158,7 +163,7 @@ namespace Eunomia
             System.Random useRandom;
             if (random == null)
             {
-                useRandom = new Random();
+                useRandom = RandomFactory();
             }
             else
             {
@@ -186,7 +191,7 @@ namespace Eunomia
             System.Random useRandom;
             if (random == null)
             {
-                useRandom = new Random();
+                useRandom = RandomFactory();
             }
             else
             {
