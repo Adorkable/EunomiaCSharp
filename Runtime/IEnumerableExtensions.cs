@@ -140,9 +140,17 @@ namespace Eunomia
             return true;
         }
 
-        private static System.Random RandomFactory()
+        private static System.Random fallbackRandom = null;
+
+        private static System.Random GetFallbackRandom()
         {
-            return new Random((int)(new DateTime()).Ticks);
+            if (fallbackRandom != null)
+            {
+                return fallbackRandom;
+            }
+
+            fallbackRandom = new System.Random((int)(new DateTime()).TimeOfDay.TotalMilliseconds);
+            return fallbackRandom;
         }
 
         /// <summary>
@@ -163,7 +171,7 @@ namespace Eunomia
             System.Random useRandom;
             if (random == null)
             {
-                useRandom = RandomFactory();
+                useRandom = GetFallbackRandom();
             }
             else
             {
@@ -191,7 +199,7 @@ namespace Eunomia
             System.Random useRandom;
             if (random == null)
             {
-                useRandom = RandomFactory();
+                useRandom = GetFallbackRandom();
             }
             else
             {
