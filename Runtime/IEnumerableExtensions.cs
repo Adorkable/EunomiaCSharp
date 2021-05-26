@@ -196,16 +196,6 @@ namespace Eunomia
                 throw new IndexOutOfRangeException("Provided IEnumerable with 0 elements");
             }
 
-            System.Random useRandom;
-            if (random == null)
-            {
-                useRandom = GetFallbackRandom();
-            }
-            else
-            {
-                useRandom = random;
-            }
-
             var index = RandomIndex(enumerable, random);
             if (index >= enumerable.Count())
             {
