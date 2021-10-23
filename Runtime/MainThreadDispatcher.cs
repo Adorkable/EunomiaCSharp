@@ -18,14 +18,14 @@ namespace Eunomia
 
         private void InvokePending()
         {
-            List<Action> invoke;
+            IEnumerable<Action> invoking;
             lock (pending)
             {
-                invoke = new List<Action>(pending);
+                invoking = pending.Copy();
                 pending.Clear();
             }
 
-            invoke.ForEach((action) =>
+            invoking.ForEach((action) =>
             {
                 action.Invoke();
             });
