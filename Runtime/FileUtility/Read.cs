@@ -1,17 +1,17 @@
-﻿using System.IO;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Eunomia
 {
-    public static class FileUtility_Read
+    public static partial class FileUtility
     {
         /// <summary>
         /// 
         /// </summary>
         /// <param name="fileName"></param>
         /// <returns></returns>
-        /// <exception cref="System.IO.FileNotFoundException"></exception>
+        /// <exception cref="System.IO.FileNotFoundException">If file to read is not found</exception>
         public static async Task<string> ReadFile(string fileName)
         {
             if (!File.Exists(fileName))
@@ -29,6 +29,13 @@ namespace Eunomia
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <param name="fallbackFileName"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.FileNotFoundException">If file to read and fallback are not found</exception>
         public static async Task<string> ReadFileWithFallback(string fileName, string fallbackFileName)
         {
             try
@@ -41,6 +48,13 @@ namespace Eunomia
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <param name="fallbackFileName"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.FileNotFoundException">If file to read and fallback are not found</exception>
         public static async Task<(string, string)> ReadFileWithFallbackAndFileName(string fileName, string fallbackFileName)
         {
             try
@@ -56,33 +70,4 @@ namespace Eunomia
         }
     }
 
-    public static class FileUtility_Write
-    {
-        public static async Task WriteFile(string fileName, string contents)
-        {
-            using (var stream = File.Open(fileName, FileMode.Create))
-            {
-                byte[] buffer = Encoding.UTF8.GetBytes(contents);
-                await stream.WriteAsync(buffer, 0, buffer.Length);
-                stream.Close();
-            }
-        }
-    }
-
-    public static class FileUtility_ReadOrCreate
-    {
-        public static async Task<string> ReadFileOrCreateDefault(string fileName, string defaultContents)
-        {
-            try
-            {
-                var contents = await FileUtility_Read.ReadFile(fileName);
-                return contents;
-            }
-            catch (FileNotFoundException)
-            {
-                await FileUtility_Write.WriteFile(fileName, defaultContents);
-                return defaultContents;
-            }
-        }
-    }
-};
+}

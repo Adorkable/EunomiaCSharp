@@ -65,13 +65,5 @@ namespace Eunomia
             System.Runtime.Serialization.IFormatter binaryFormatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
             random = (System.Random)binaryFormatter.Deserialize(buffer);
         }
-
-        // void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize() {
-        //     this.systemRandomSerialization = this.SerializeSystemRandom();
-        // }
-
-        // void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize() {
-        //     this.DeserializeSystemRandom(this.systemRandomSerialization);
-        // }
     }
 }

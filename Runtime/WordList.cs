@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Eunomia
 {
     [Serializable]
     public struct WordList
     {
-        public List<string> All;
+        public IEnumerable<string> All;
         public List<List<string>> ByLength;
         public List<string> WithLength(int length)
         {
@@ -20,14 +21,14 @@ namespace Eunomia
             return this.ByLength[lengthStartingWith1];
         }
 
-        public WordList(List<string> allWords)
+        public WordList(IEnumerable<string> allWords)
         {
-            this.All = allWords.FilterEmpty();
+            this.All = allWords.FilterNullOrEmpty();
             this.ByLength = processWordsByLength(this.All);
         }
 
         /// Processing
-        private static List<List<string>> processWordsByLength(List<string> all)
+        private static List<List<string>> processWordsByLength(IEnumerable<string> all)
         {
             var processValues = new List<string>(all.Clone());
             List<List<string>> result = new List<List<string>>();
