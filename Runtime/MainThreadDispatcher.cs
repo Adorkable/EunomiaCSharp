@@ -8,6 +8,8 @@ namespace Eunomia
     {
         private readonly List<Action> pending = new List<Action>();
 
+        public Action<Exception> logUnhandledExceptions = null;
+
         public void Invoke(Action fn)
         {
             lock (pending)
@@ -27,7 +29,17 @@ namespace Eunomia
 
             invoking.ForEach((action) =>
             {
-                action.Invoke();
+                try
+                {
+                    action.Invoke();
+                }
+                catch (Exception exception)
+                {
+                    if (logUnhandledExceptions != null)
+                    {
+                        logUnhandledExceptions.Invoke(exception);
+                    }
+                }
             });
         }
 
