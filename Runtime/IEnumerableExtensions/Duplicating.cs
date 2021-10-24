@@ -6,14 +6,14 @@ namespace Eunomia
 {
     public static partial class IEnumerableExtensions
     {
-        public static IEnumerable<T> Clone<T>(this IEnumerable<T> listToClone) where T : ICloneable
+        public static IList<T> Clone<T>(this IEnumerable<T> listToClone) where T : ICloneable
         {
-            return listToClone.Select(item => (T)item.Clone());
+            return listToClone.Select(item => (T)item.Clone()).ToList();
         }
 
-        public static IEnumerable<T> Copy<T>(this IEnumerable<T> listToCopy)
+        public static IList<T> Copy<T>(this IEnumerable<T> listToCopy)
         {
-            return listToCopy.Select(item => item);
+            return listToCopy.Select(item => item).ToList();
         }
     }
 }
