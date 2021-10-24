@@ -23,6 +23,11 @@ namespace Eunomia
             IEnumerable<Action> invoking;
             lock (pending)
             {
+                if (pending.Count == 0)
+                {
+                    return;
+                }
+
                 invoking = pending.Copy();
                 pending.Clear();
             }
