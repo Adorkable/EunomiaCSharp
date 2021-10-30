@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.4.2</Version>
+    <Authors>Ian G &lt;yo.ian.g@gmail.com&gt;</Authors>
+    <Company>Adorkable LLC</Company>
+    <Product>Eunomia CSharp</Product>
+    <Description>The team's go-to utilities for C#, named for the Greek goddess of green pastures, law and legislation</Description>
+    <Copyright />
+    <PackageProjectUrl>https://github.com/Adorkable/eunomiacsharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Adorkable/eunomiacsharp</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>csharp, utility, library, eunomia</PackageTags>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Runtime\*Tests.cs" />
+  </ItemGroup>
+</Project>

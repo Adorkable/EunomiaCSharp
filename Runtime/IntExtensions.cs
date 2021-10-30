@@ -5,13 +5,18 @@ namespace Eunomia
     public static class IntExtensions
     {
         /// <summary>
-        /// Wraps a value around 0 and a specified wrap around value
+        /// Wraps a value around 0 (inclusive) and a specified wrap around value (exclusive)
         /// </summary>
         /// <param name="value">Value to wrap</param>
         /// <param name="around">Value to use to wrap around, exclusive</param>
         /// <returns>Wrapped value</returns>
         public static int Wrap(this int value, int around)
         {
+            if (around <= 0)
+            {
+                throw new ArgumentException("around must be >= 0", "around");
+            }
+
             if (value < 0)
             {
                 return around + value;
@@ -23,10 +28,10 @@ namespace Eunomia
             return value;
         }
 
-        /// <exception cref="System.OverflowException">If within == 0</exception>
+        /// <exception cref="System.OverflowException">If within <= 0</exception>
         public static int ClampUpperExclusive(this int value, int within)
         {
-            if (within == 0)
+            if (within <= 0)
             {
                 throw new OverflowException();
             }
