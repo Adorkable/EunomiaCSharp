@@ -14,8 +14,4 @@
     <PackageTags>csharp, utility, library, eunomia</PackageTags>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Runtime\*Tests.cs" />
-  </ItemGroup>
 </Project>
