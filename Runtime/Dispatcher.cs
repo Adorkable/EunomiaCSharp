@@ -4,9 +4,14 @@ using System.Collections.Generic;
 namespace Eunomia
 {
     // Based on: https://www.lucidumstudio.com/home/2017/12/5/lucidum-studio-async-code-execution-in-unity
-    public class MainThreadDispatcher
+
+    /// <summary>
+    /// Utility class for ensuring a set of Actions are Invoked in order from a particular thread
+    /// </summary>
+    public class Dispatcher
     {
         private readonly List<Action> pending = new List<Action>();
+        private volatile bool pendingActions = false;
 
         public Action<Exception> logUnhandledExceptions = null;
 
@@ -14,12 +19,18 @@ namespace Eunomia
         {
             lock (pending)
             {
-                this.pending.Add(fn);
+                pending.Add(fn);
+                pendingActions = true;
             }
         }
 
-        private void InvokePending()
+        public void InvokePending()
         {
+            if (!pendingActions)
+            {
+                return;
+            }
+
             IEnumerable<Action> invoking;
             lock (pending)
             {
@@ -29,7 +40,9 @@ namespace Eunomia
                 }
 
                 invoking = pending.Copy();
+
                 pending.Clear();
+                pendingActions = false;
             }
 
             invoking.ForEach((action) =>
@@ -44,13 +57,9 @@ namespace Eunomia
                     {
                         logUnhandledExceptions.Invoke(exception);
                     }
+                    // TODO: else collect and throw all exceptions
                 }
             });
-        }
-
-        public virtual void Update()
-        {
-            this.InvokePending();
         }
     };
 };
