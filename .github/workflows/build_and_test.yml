@@ -30,6 +30,7 @@ jobs:
     - name: Run Tests
       run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutput=./TestResults/coverage.json
 
-    - name: Generate Code Coverage Report
+    - name: Install Code Coverage Report Generator
       run: dotnet tool install dotnet-reportgenerator-globaltool --tool-path Tools
+    - name: Generate Code Coverage Report
       run: ./Tools/reportgenerator -reports:./TestResults/coverage.json -targetdir:./TestResults/Coverage -reporttypes:lcov
