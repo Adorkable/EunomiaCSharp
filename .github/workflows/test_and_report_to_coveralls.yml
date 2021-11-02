@@ -1,4 +1,4 @@
-name: Test and Report
+name: Test and Report to Coveralls
 
 on: [push, pull_request]
 
