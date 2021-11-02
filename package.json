@@ -8,7 +8,7 @@
     "package",
     "unity"
   ],
-  "description": "",
+  "description": "The team's go-to utilities for C#, named for the Greek goddess of green pastures, law and legislation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
