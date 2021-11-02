@@ -21,15 +21,8 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
     - name: Run Tests
       run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutput=./TestResults/coverage.json
-
     - name: Install Code Coverage Report Generator
       run: dotnet tool install dotnet-reportgenerator-globaltool --tool-path Tools
     - name: Generate Code Coverage Report
