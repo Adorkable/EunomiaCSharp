@@ -10,8 +10,14 @@ namespace Eunomia
         /// <param name="value">Value to wrap</param>
         /// <param name="around">Value to use to wrap around, exclusive</param>
         /// <returns>`this` updated</returns>
+        /// <exception cref="System.ArgumentOutOfRangeException">`around` <= 0</exception>
         public static float Wrap(this float value, float around)
         {
+            if (around <= 0)
+            {
+                throw new ArgumentOutOfRangeException("around must be >= 0", "around");
+            }
+
             if (value < 0)
             {
                 return around + value;
@@ -44,6 +50,24 @@ namespace Eunomia
             else if (value > upper)
             {
                 return upper;
+            }
+            return value;
+        }
+
+        /// <exception cref="System.ArgumentOutOfRangeException">`within` <= 0</exception>
+        public static float ClampUpperExclusive(this float value, float within)
+        {
+            if (within <= 0)
+            {
+                throw new ArgumentOutOfRangeException("within must be > 0", "within");
+            }
+            if (value < 0)
+            {
+                return 0;
+            }
+            else if (value >= within)
+            {
+                return within - 1;
             }
             return value;
         }
