@@ -1,0 +1,11 @@
+[ReportGenerator]
+	reports = "./TestResults/coverage.json"
+	targetdir = "./TestResults/Coverage"
+	reporttype = Html
+    reporttype = HtmlChart
+    reporttype = HtmlInline
+    reporttype = HtmlSummary
+    reporttype = MarkdownSummary
+    reporttype = Badges
+    reporttype = lcov
+    reporttype = Xml

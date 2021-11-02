@@ -397,3 +397,9 @@ FodyWeavers.xsd
 # Unity
 /Scenes
 /Scenes.meta
+
+# macOS
+.DS_Store
+
+# Local tools
+Tools/

@@ -48,10 +48,19 @@
                 "${workspaceFolder}/Tests/EunomiaTests.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary",
-                "--collect:Code Coverage"
+                "/p:CollectCoverage=true",
+                "/p:CoverletOutput=${workspaceFolder}/TestResults/coverage.json"
             ],
             "problemMatcher": "$msCompile",
             "isTestCommand": true
+        },
+        {
+            "label": "generate_test_coverage_report",
+            "command": "Tools/reportgenerator",
+            "type": "process",
+            "args": [
+            ],
+            "problemMatcher": "$msCompile",
         }
     ]
 }
