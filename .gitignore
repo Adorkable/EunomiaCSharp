@@ -2,8 +2,8 @@
 /**/._*.*
 
 .editorconfig
-/bin.meta
-/obj.meta
+bin.meta
+obj.meta
 Tests/*.cs.meta
 
 ## Ignore Visual Studio temporary files, build results, and
