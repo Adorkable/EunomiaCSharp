@@ -1,14 +1,14 @@
 {
   "name": "com.adorkable.eunomia-csharp",
   "displayName": "Eunomia C#",
-  "version": "1.5.1",
+  "version": "1.5.4",
   "unity": "2019.2",
   "category": "Library/Utility",
   "keywords": [
     "package",
     "unity"
   ],
-  "description": "",
+  "description": "The team's go-to utilities for C#, named for the Greek goddess of green pastures, law and legislation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
