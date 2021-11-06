@@ -1,16 +1,15 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
-using Eunomia;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+// ReSharper disable once CheckNamespace
 namespace Eunomia.Tests
 {
     [TestClass()]
     public class DispatcherTests
     {
         [TestMethod()]
-        public void LogUnhandledExpectionsTest()
+        public void LogUnhandledExceptionsTest()
         {
             var dispatcher = new Dispatcher();
 
@@ -31,10 +30,7 @@ namespace Eunomia.Tests
             }
 
             var loggedCount = 0;
-            dispatcher.logUnhandledExceptions = (Exception expection) =>
-            {
-                loggedCount += 1;
-            };
+            dispatcher.logUnhandledExceptions = (exception) => { loggedCount += 1; };
 
             dispatcher.InvokePending();
 
@@ -43,13 +39,12 @@ namespace Eunomia.Tests
         }
 
         [TestMethod()]
-        public void CatchUnhandledExpectionsTest()
+        public void CatchUnhandledExceptionsTest()
         {
             var dispatcher = new Dispatcher();
 
             var count = 0;
             var expectedCount = new Random().Next(1000);
-            var expectedExceptionCount = 0;
             for (var queuedCount = 0; queuedCount < expectedCount; queuedCount++)
             {
                 dispatcher.Invoke(() =>
@@ -57,7 +52,6 @@ namespace Eunomia.Tests
                     count += 1;
                     if (count % 2 == 0)
                     {
-                        expectedExceptionCount += 1;
                         throw new AssertFailedException();
                     }
                 });
@@ -77,10 +71,7 @@ namespace Eunomia.Tests
             var expectedCount = new Random().Next(1000);
             for (var queuedCount = 0; queuedCount < expectedCount; queuedCount++)
             {
-                dispatcher.Invoke(() =>
-                {
-                    count += 1;
-                });
+                dispatcher.Invoke(() => { count += 1; });
             }
 
             dispatcher.InvokePending();

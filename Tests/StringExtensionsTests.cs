@@ -1,28 +1,25 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Eunomia;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
+// ReSharper disable once CheckNamespace
 namespace Eunomia.Tests
 {
     [TestClass()]
     public class StringExtensionsTests
     {
         [TestMethod()]
-        public void RemoveXMLTagsTest()
+        public void RemoveXmlTagsTest()
         {
-            var inside = "lalalal";
+            const string inside = "lalalal";
             var testWith = $"<hi I am a tag>{inside}</closeTaG>";
-            Assert.AreEqual(inside, testWith.RemoveXMLTags());
+            Assert.AreEqual(inside, testWith.RemoveXmlTags());
 
-            Assert.AreEqual(inside, inside.RemoveXMLTags());
+            Assert.AreEqual(inside, inside.RemoveXmlTags());
 
             string testNull = null;
-            Assert.AreEqual(null, StringExtensions.RemoveXMLTags(testNull));
+            Assert.AreEqual(null, StringExtensions.RemoveXmlTags(testNull));
 
             var spaces = "    ";
-            Assert.AreEqual(spaces, spaces.RemoveXMLTags());
+            Assert.AreEqual(spaces, spaces.RemoveXmlTags());
         }
     }
 }

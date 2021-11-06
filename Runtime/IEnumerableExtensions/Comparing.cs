@@ -1,11 +1,14 @@
 using System;
 using System.Collections.Generic;
 
+// ReSharper disable once CheckNamespace - In folder for organization reasons
 namespace Eunomia
 {
+    // ReSharper disable once InconsistentNaming - extensions for IEnumerable :P
     public static partial class IEnumerableExtensions
     {
-        public static bool EqualContents<T>(this IEnumerable<T>[] array, IEnumerable<T>[] compareTo) where T : IEquatable<T>
+        public static bool EqualContents<T>(this IEnumerable<T>[] array, IEnumerable<T>[] compareTo)
+            where T : IEquatable<T>
         {
             if (array == null && compareTo == null)
             {
@@ -29,6 +32,7 @@ namespace Eunomia
                     return false;
                 }
             }
+
             return true;
         }
     }

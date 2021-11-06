@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 
+// ReSharper disable once CheckNamespace - In folder for organization reasons
 namespace Eunomia
 {
+    // ReSharper disable once InconsistentNaming - extensions for IEnumerable :P
     public static partial class IEnumerableExtensions
     {
         public static void ForEach<T>(this IEnumerable<T> enumerableToOperateOn, Action<T, int> operation)
@@ -16,8 +18,8 @@ namespace Eunomia
         }
 
         /// <summary>
-        /// 
         /// </summary>
+        /// <param name="enumerableToOperateOn"></param>
         /// <param name="operation">Return `false` to continue iteration, `true` to stop</param>
         public static void ForEach<T>(this IEnumerable<T> enumerableToOperateOn, Func<T, bool> operation)
         {
@@ -31,8 +33,8 @@ namespace Eunomia
         }
 
         /// <summary>
-        /// 
         /// </summary>
+        /// <param name="enumerableToOperateOn"></param>
         /// <param name="operation">Return `false` to continue iteration, `true` to stop</param>
         public static void ForEach<T>(this IEnumerable<T> enumerableToOperateOn, Func<T, int, bool> operation)
         {
@@ -43,6 +45,7 @@ namespace Eunomia
                 {
                     return;
                 }
+
                 index += 1;
             }
         }

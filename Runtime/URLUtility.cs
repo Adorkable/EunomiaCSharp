@@ -1,31 +1,38 @@
-namespace Eunomia {
-    public class URLUtility {
-        public enum Protocol {
-            HTTP,
+namespace Eunomia
+{
+    public class UrlUtility
+    {
+        public enum Protocol
+        {
+            Http,
             WebSocket
         }
-        public static string ProtocolPrefix(Protocol protocol, bool secure) {
-            switch (protocol) {
-                case Protocol.HTTP:
-                    if (secure) {
-                        return "https";
-                    }
-                    return "http";
+
+        public static string ProtocolPrefix(Protocol protocol, bool secure)
+        {
+            switch (protocol)
+            {
+                case Protocol.Http:
+                    return secure
+                        ? "https"
+                        : "http";
 
                 case Protocol.WebSocket:
-                    if (secure) {
-                        return "wss";
-                    }
-                    return "ws";
+                    return secure
+                        ? "wss"
+                        : "ws";
             }
 
             return "";
         }
-        public static string ComposeURL(Protocol protocol, bool secure, string host, int port) {
-            string result = URLUtility.ProtocolPrefix(protocol, secure) + "://" + host;
+
+        public static string ComposeUrl(Protocol protocol, bool secure, string host, int port)
+        {
+            var result = ProtocolPrefix(protocol, secure) + "://" + host;
 
             // Make this removal optional
-            if (port != 80) {
+            if (port != 80)
+            {
                 result += ":" + port;
             }
 

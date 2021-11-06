@@ -7,7 +7,7 @@ namespace Eunomia
     {
         public static void ForEach<T>(this IList<T> listToForEach, Action<T> action)
         {
-            foreach (T element in listToForEach)
+            foreach (var element in listToForEach)
             {
                 action(element);
             }
@@ -16,10 +16,7 @@ namespace Eunomia
         public static IEnumerable<T> RemoveAll<T>(this IList<T> listToRemoveFrom, IList<T> remove) where T : ICloneable
         {
             var result = listToRemoveFrom.Clone();
-            remove.ForEach(value =>
-            {
-                listToRemoveFrom.Remove(value);
-            });
+            remove.ForEach(value => { listToRemoveFrom.Remove(value); });
             return result;
         }
     }

@@ -7,19 +7,18 @@ namespace Eunomia
     public static class StringExtensions
     {
         // TODO: add support for </> and other characters within "..."
-        static Lazy<Regex> XmlTag = new Lazy<Regex>(() =>
-        {
-            return new Regex(@"([<][/]?[a-zA-Z="" ]*[>])", RegexOptions.Compiled | RegexOptions.IgnoreCase);
-        });
+        public static readonly Lazy<Regex> XmlTag = new Lazy<Regex>(
+            () => new Regex(@"([<][/]?[a-zA-Z="" ]*[>])", RegexOptions.Compiled | RegexOptions.IgnoreCase)
+        );
 
-        public static string RemoveXMLTags(this string clean)
+        public static string RemoveXmlTags(this string clean)
         {
             if (clean == null)
             {
                 return null;
             }
 
-            MatchCollection matches = XmlTag.Value.Matches(clean);
+            var matches = XmlTag.Value.Matches(clean);
 
             var result = clean;
             for (var index = matches.Count - 1; index >= 0; index--)
@@ -29,6 +28,7 @@ namespace Eunomia
                 var matchedString = match.Groups[0].Value;
                 result = result.Remove(start, matchedString.Count());
             }
+
             return result;
         }
     }

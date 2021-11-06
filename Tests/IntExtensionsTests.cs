@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+// ReSharper disable once CheckNamespace
 namespace Eunomia.Tests
 {
     [TestClass()]
@@ -9,7 +10,7 @@ namespace Eunomia.Tests
         [TestMethod()]
         public void WrapTest()
         {
-            int seven = 7;
+            var seven = 7;
 
             Assert.AreEqual(1, seven.Wrap(3));
 
@@ -20,7 +21,7 @@ namespace Eunomia.Tests
 
             Assert.ThrowsException<ArgumentOutOfRangeException>(() => seven.Wrap(0));
 
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() => (5).Wrap(-2));
+            Assert.ThrowsException<ArgumentOutOfRangeException>(() => 5.Wrap(-2));
         }
 
         [TestMethod()]

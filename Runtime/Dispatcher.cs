@@ -6,14 +6,14 @@ namespace Eunomia
     // Based on: https://www.lucidumstudio.com/home/2017/12/5/lucidum-studio-async-code-execution-in-unity
 
     /// <summary>
-    /// Utility class for ensuring a set of Actions are Invoked in order from a particular thread
+    ///     Utility class for ensuring a set of Actions are Invoked in order from a particular thread
     /// </summary>
     public class Dispatcher
     {
         private readonly List<Action> pending = new List<Action>();
-        private volatile bool pendingActions = false;
 
         public Action<Exception> logUnhandledExceptions = null;
+        private volatile bool pendingActions;
 
         public void Invoke(Action fn)
         {

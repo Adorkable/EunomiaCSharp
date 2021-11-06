@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Eunomia
 {
@@ -9,38 +8,42 @@ namespace Eunomia
     {
         public IEnumerable<string> All;
         public List<List<string>> ByLength;
+
         public List<string> WithLength(int length)
         {
             // TODO: or should we have a list of a 0 length string :P
             var lengthStartingWith1 = length - 1;
-            if (lengthStartingWith1 >= ByLength.Count)
-            {
-                return null;
-            }
-
-            return this.ByLength[lengthStartingWith1];
+            return lengthStartingWith1 < ByLength.Count
+                ? this.ByLength[lengthStartingWith1]
+                : null;
         }
 
         public WordList(IEnumerable<string> allWords)
         {
             this.All = allWords.FilterNullOrEmpty();
-            this.ByLength = processWordsByLength(this.All);
+            this.ByLength = ProcessWordsByLength(this.All);
         }
 
         /// Processing
-        private static List<List<string>> processWordsByLength(IEnumerable<string> all)
+        private static List<List<string>> ProcessWordsByLength(IEnumerable<string> all)
         {
             var processValues = new List<string>(all.Clone());
-            List<List<string>> result = new List<List<string>>();
+            var result = new List<List<string>>();
 
-            int length = 1;
-            int maxLength = processValues.Reduce((previous, current) =>
-            {
-                return System.Math.Max(previous, current.Length);
-            }, 0);
+            var length = 1;
+            var maxLength = processValues.Reduce(
+                (previous, current) => System.Math.Max(previous, current.Length), 0
+            );
+
             while (processValues.Count > 0 && length <= maxLength)
             {
-                var found = processValues.FindAll(test => test.Length == length);
+                var found = processValues.FindAll(
+                    // ReSharper disable once SimplifyConditionalTernaryExpression
+                    (test) => test != null
+                        ? test.Length == length
+                        : false
+                );
+
                 // TODO: specify index to match Length - 1 purposefully to be safe
                 result.Add(found);
                 processValues.RemoveAll(found);

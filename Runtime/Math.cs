@@ -20,6 +20,7 @@ namespace Eunomia
                 newWidth = match.Item1;
                 newHeight = content.Item2 * match.Item1 / content.Item1;
             }
+
             return (newWidth, newHeight);
         }
 
@@ -39,6 +40,7 @@ namespace Eunomia
                 newWidth = match.X;
                 newHeight = content.Y * match.X / content.Y;
             }
+
             return new Vector2(newWidth, newHeight);
         }
     }
