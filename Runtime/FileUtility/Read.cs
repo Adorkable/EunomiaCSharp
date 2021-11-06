@@ -1,4 +1,3 @@
-using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,10 +20,13 @@ namespace Eunomia
                 throw new FileNotFoundException("Unable to find file", fileName);
             }
 
-            await using (var stream = File.Open(fileName, FileMode.Open))
+            // ReSharper disable once UseAwaitUsing - Not supported by Unity 2019
+            using (var stream = File.Open(fileName, FileMode.Open))
             {
                 var buffer = new byte[stream.Length];
-                await stream.ReadAsync(buffer.AsMemory(0, (int) stream.Length));
+#pragma warning disable CA1835 // Not supported by Unity 2019
+                await stream.ReadAsync(buffer, 0, (int)stream.Length);
+#pragma warning restore CA1835
                 stream.Close();
 
                 return Encoding.Default.GetString(buffer);

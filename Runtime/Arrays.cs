@@ -26,9 +26,11 @@ namespace Eunomia
         /// <param name="to">Array that will be resized and added to</param>
         public static void AddToBack<T>(T add, ref T[] to)
         {
+            var index = to.Length;
+
             Array.Resize(ref to, to.Length + 1);
 
-            to[^1] = add;
+            to[index] = add;
         }
     }
 }

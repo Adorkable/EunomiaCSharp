@@ -1,4 +1,3 @@
-using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,10 +9,13 @@ namespace Eunomia
     {
         public static async Task WriteFile(string fileName, string contents)
         {
-            await using (var stream = File.Open(fileName, FileMode.Create))
+            // ReSharper disable once UseAwaitUsing - Not supported by Unity 2019
+            using (var stream = File.Open(fileName, FileMode.Create))
             {
                 var buffer = Encoding.UTF8.GetBytes(contents);
-                await stream.WriteAsync(buffer.AsMemory(0, buffer.Length));
+#pragma warning disable CA1835 // Not supported by Unity 2019
+                await stream.WriteAsync(buffer, 0, buffer.Length);
+#pragma warning restore CA1835
                 stream.Close();
             }
         }
