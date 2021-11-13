@@ -1,0 +1,1331 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Eunomia
+  name: Eunomia
+  href: api/Eunomia.html
+  commentId: N:Eunomia
+  fullName: Eunomia
+  nameWithType: Eunomia
+- uid: Eunomia.ArrayExtensions
+  name: ArrayExtensions
+  href: api/Eunomia.ArrayExtensions.html
+  commentId: T:Eunomia.ArrayExtensions
+  fullName: Eunomia.ArrayExtensions
+  nameWithType: ArrayExtensions
+- uid: Eunomia.ArrayExtensions.EqualContents*
+  name: EqualContents
+  href: api/Eunomia.ArrayExtensions.html#Eunomia_ArrayExtensions_EqualContents_
+  commentId: Overload:Eunomia.ArrayExtensions.EqualContents
+  isSpec: "True"
+  fullName: Eunomia.ArrayExtensions.EqualContents
+  nameWithType: ArrayExtensions.EqualContents
+- uid: Eunomia.ArrayExtensions.EqualContents``1(``0[],``0[])
+  name: EqualContents<T>(T[], T[])
+  href: api/Eunomia.ArrayExtensions.html#Eunomia_ArrayExtensions_EqualContents__1___0_____0___
+  commentId: M:Eunomia.ArrayExtensions.EqualContents``1(``0[],``0[])
+  name.vb: EqualContents(Of T)(T(), T())
+  fullName: Eunomia.ArrayExtensions.EqualContents<T>(T[], T[])
+  fullName.vb: Eunomia.ArrayExtensions.EqualContents(Of T)(T(), T())
+  nameWithType: ArrayExtensions.EqualContents<T>(T[], T[])
+  nameWithType.vb: ArrayExtensions.EqualContents(Of T)(T(), T())
+- uid: Eunomia.Arrays
+  name: Arrays
+  href: api/Eunomia.Arrays.html
+  commentId: T:Eunomia.Arrays
+  fullName: Eunomia.Arrays
+  nameWithType: Arrays
+- uid: Eunomia.Arrays.AddToBack*
+  name: AddToBack
+  href: api/Eunomia.Arrays.html#Eunomia_Arrays_AddToBack_
+  commentId: Overload:Eunomia.Arrays.AddToBack
+  isSpec: "True"
+  fullName: Eunomia.Arrays.AddToBack
+  nameWithType: Arrays.AddToBack
+- uid: Eunomia.Arrays.AddToBack``1(``0,``0[])
+  name: AddToBack<T>(T, T[])
+  href: api/Eunomia.Arrays.html#Eunomia_Arrays_AddToBack__1___0___0___
+  commentId: M:Eunomia.Arrays.AddToBack``1(``0,``0[])
+  name.vb: AddToBack(Of T)(T, T())
+  fullName: Eunomia.Arrays.AddToBack<T>(T, T[])
+  fullName.vb: Eunomia.Arrays.AddToBack(Of T)(T, T())
+  nameWithType: Arrays.AddToBack<T>(T, T[])
+  nameWithType.vb: Arrays.AddToBack(Of T)(T, T())
+- uid: Eunomia.Arrays.AddToBack``1(``0,``0[]@)
+  name: AddToBack<T>(T, ref T[])
+  href: api/Eunomia.Arrays.html#Eunomia_Arrays_AddToBack__1___0___0____
+  commentId: M:Eunomia.Arrays.AddToBack``1(``0,``0[]@)
+  name.vb: AddToBack(Of T)(T, ByRef T())
+  fullName: Eunomia.Arrays.AddToBack<T>(T, ref T[])
+  fullName.vb: Eunomia.Arrays.AddToBack(Of T)(T, ByRef T())
+  nameWithType: Arrays.AddToBack<T>(T, ref T[])
+  nameWithType.vb: Arrays.AddToBack(Of T)(T, ByRef T())
+- uid: Eunomia.Dispatcher
+  name: Dispatcher
+  href: api/Eunomia.Dispatcher.html
+  commentId: T:Eunomia.Dispatcher
+  fullName: Eunomia.Dispatcher
+  nameWithType: Dispatcher
+- uid: Eunomia.Dispatcher.Invoke(Action)
+  name: Invoke(Action)
+  href: api/Eunomia.Dispatcher.html#Eunomia_Dispatcher_Invoke_Action_
+  commentId: M:Eunomia.Dispatcher.Invoke(Action)
+  fullName: Eunomia.Dispatcher.Invoke(Action)
+  nameWithType: Dispatcher.Invoke(Action)
+- uid: Eunomia.Dispatcher.Invoke*
+  name: Invoke
+  href: api/Eunomia.Dispatcher.html#Eunomia_Dispatcher_Invoke_
+  commentId: Overload:Eunomia.Dispatcher.Invoke
+  isSpec: "True"
+  fullName: Eunomia.Dispatcher.Invoke
+  nameWithType: Dispatcher.Invoke
+- uid: Eunomia.Dispatcher.InvokePending
+  name: InvokePending()
+  href: api/Eunomia.Dispatcher.html#Eunomia_Dispatcher_InvokePending
+  commentId: M:Eunomia.Dispatcher.InvokePending
+  fullName: Eunomia.Dispatcher.InvokePending()
+  nameWithType: Dispatcher.InvokePending()
+- uid: Eunomia.Dispatcher.InvokePending*
+  name: InvokePending
+  href: api/Eunomia.Dispatcher.html#Eunomia_Dispatcher_InvokePending_
+  commentId: Overload:Eunomia.Dispatcher.InvokePending
+  isSpec: "True"
+  fullName: Eunomia.Dispatcher.InvokePending
+  nameWithType: Dispatcher.InvokePending
+- uid: Eunomia.Dispatcher.logUnhandledExceptions
+  name: logUnhandledExceptions
+  href: api/Eunomia.Dispatcher.html#Eunomia_Dispatcher_logUnhandledExceptions
+  commentId: F:Eunomia.Dispatcher.logUnhandledExceptions
+  fullName: Eunomia.Dispatcher.logUnhandledExceptions
+  nameWithType: Dispatcher.logUnhandledExceptions
+- uid: Eunomia.FileUtility
+  name: FileUtility
+  href: api/Eunomia.FileUtility.html
+  commentId: T:Eunomia.FileUtility
+  fullName: Eunomia.FileUtility
+  nameWithType: FileUtility
+- uid: Eunomia.FileUtility.ReadFile(System.String)
+  name: ReadFile(String)
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_ReadFile_System_String_
+  commentId: M:Eunomia.FileUtility.ReadFile(System.String)
+  fullName: Eunomia.FileUtility.ReadFile(System.String)
+  nameWithType: FileUtility.ReadFile(String)
+- uid: Eunomia.FileUtility.ReadFile*
+  name: ReadFile
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_ReadFile_
+  commentId: Overload:Eunomia.FileUtility.ReadFile
+  isSpec: "True"
+  fullName: Eunomia.FileUtility.ReadFile
+  nameWithType: FileUtility.ReadFile
+- uid: Eunomia.FileUtility.ReadFileOrCreateDefault(System.String,System.String)
+  name: ReadFileOrCreateDefault(String, String)
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_ReadFileOrCreateDefault_System_String_System_String_
+  commentId: M:Eunomia.FileUtility.ReadFileOrCreateDefault(System.String,System.String)
+  fullName: Eunomia.FileUtility.ReadFileOrCreateDefault(System.String, System.String)
+  nameWithType: FileUtility.ReadFileOrCreateDefault(String, String)
+- uid: Eunomia.FileUtility.ReadFileOrCreateDefault*
+  name: ReadFileOrCreateDefault
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_ReadFileOrCreateDefault_
+  commentId: Overload:Eunomia.FileUtility.ReadFileOrCreateDefault
+  isSpec: "True"
+  fullName: Eunomia.FileUtility.ReadFileOrCreateDefault
+  nameWithType: FileUtility.ReadFileOrCreateDefault
+- uid: Eunomia.FileUtility.ReadFileWithFallback(System.String,System.String)
+  name: ReadFileWithFallback(String, String)
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_ReadFileWithFallback_System_String_System_String_
+  commentId: M:Eunomia.FileUtility.ReadFileWithFallback(System.String,System.String)
+  fullName: Eunomia.FileUtility.ReadFileWithFallback(System.String, System.String)
+  nameWithType: FileUtility.ReadFileWithFallback(String, String)
+- uid: Eunomia.FileUtility.ReadFileWithFallback*
+  name: ReadFileWithFallback
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_ReadFileWithFallback_
+  commentId: Overload:Eunomia.FileUtility.ReadFileWithFallback
+  isSpec: "True"
+  fullName: Eunomia.FileUtility.ReadFileWithFallback
+  nameWithType: FileUtility.ReadFileWithFallback
+- uid: Eunomia.FileUtility.ReadFileWithFallbackAndFileName(System.String,System.String)
+  name: ReadFileWithFallbackAndFileName(String, String)
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_ReadFileWithFallbackAndFileName_System_String_System_String_
+  commentId: M:Eunomia.FileUtility.ReadFileWithFallbackAndFileName(System.String,System.String)
+  fullName: Eunomia.FileUtility.ReadFileWithFallbackAndFileName(System.String, System.String)
+  nameWithType: FileUtility.ReadFileWithFallbackAndFileName(String, String)
+- uid: Eunomia.FileUtility.ReadFileWithFallbackAndFileName*
+  name: ReadFileWithFallbackAndFileName
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_ReadFileWithFallbackAndFileName_
+  commentId: Overload:Eunomia.FileUtility.ReadFileWithFallbackAndFileName
+  isSpec: "True"
+  fullName: Eunomia.FileUtility.ReadFileWithFallbackAndFileName
+  nameWithType: FileUtility.ReadFileWithFallbackAndFileName
+- uid: Eunomia.FileUtility.WriteFile(System.String,System.String)
+  name: WriteFile(String, String)
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_WriteFile_System_String_System_String_
+  commentId: M:Eunomia.FileUtility.WriteFile(System.String,System.String)
+  fullName: Eunomia.FileUtility.WriteFile(System.String, System.String)
+  nameWithType: FileUtility.WriteFile(String, String)
+- uid: Eunomia.FileUtility.WriteFile*
+  name: WriteFile
+  href: api/Eunomia.FileUtility.html#Eunomia_FileUtility_WriteFile_
+  commentId: Overload:Eunomia.FileUtility.WriteFile
+  isSpec: "True"
+  fullName: Eunomia.FileUtility.WriteFile
+  nameWithType: FileUtility.WriteFile
+- uid: Eunomia.FloatExtensions
+  name: FloatExtensions
+  href: api/Eunomia.FloatExtensions.html
+  commentId: T:Eunomia.FloatExtensions
+  fullName: Eunomia.FloatExtensions
+  nameWithType: FloatExtensions
+- uid: Eunomia.FloatExtensions.Clamp(System.Single,System.Single,System.Single)
+  name: Clamp(Single, Single, Single)
+  href: api/Eunomia.FloatExtensions.html#Eunomia_FloatExtensions_Clamp_System_Single_System_Single_System_Single_
+  commentId: M:Eunomia.FloatExtensions.Clamp(System.Single,System.Single,System.Single)
+  fullName: Eunomia.FloatExtensions.Clamp(System.Single, System.Single, System.Single)
+  nameWithType: FloatExtensions.Clamp(Single, Single, Single)
+- uid: Eunomia.FloatExtensions.Clamp*
+  name: Clamp
+  href: api/Eunomia.FloatExtensions.html#Eunomia_FloatExtensions_Clamp_
+  commentId: Overload:Eunomia.FloatExtensions.Clamp
+  isSpec: "True"
+  fullName: Eunomia.FloatExtensions.Clamp
+  nameWithType: FloatExtensions.Clamp
+- uid: Eunomia.FloatExtensions.ClampUpperExclusive(System.Single,System.Single)
+  name: ClampUpperExclusive(Single, Single)
+  href: api/Eunomia.FloatExtensions.html#Eunomia_FloatExtensions_ClampUpperExclusive_System_Single_System_Single_
+  commentId: M:Eunomia.FloatExtensions.ClampUpperExclusive(System.Single,System.Single)
+  fullName: Eunomia.FloatExtensions.ClampUpperExclusive(System.Single, System.Single)
+  nameWithType: FloatExtensions.ClampUpperExclusive(Single, Single)
+- uid: Eunomia.FloatExtensions.ClampUpperExclusive*
+  name: ClampUpperExclusive
+  href: api/Eunomia.FloatExtensions.html#Eunomia_FloatExtensions_ClampUpperExclusive_
+  commentId: Overload:Eunomia.FloatExtensions.ClampUpperExclusive
+  isSpec: "True"
+  fullName: Eunomia.FloatExtensions.ClampUpperExclusive
+  nameWithType: FloatExtensions.ClampUpperExclusive
+- uid: Eunomia.FloatExtensions.Map(System.Single,System.Single,System.Single,System.Single,System.Single)
+  name: Map(Single, Single, Single, Single, Single)
+  href: api/Eunomia.FloatExtensions.html#Eunomia_FloatExtensions_Map_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:Eunomia.FloatExtensions.Map(System.Single,System.Single,System.Single,System.Single,System.Single)
+  fullName: Eunomia.FloatExtensions.Map(System.Single, System.Single, System.Single, System.Single, System.Single)
+  nameWithType: FloatExtensions.Map(Single, Single, Single, Single, Single)
+- uid: Eunomia.FloatExtensions.Map*
+  name: Map
+  href: api/Eunomia.FloatExtensions.html#Eunomia_FloatExtensions_Map_
+  commentId: Overload:Eunomia.FloatExtensions.Map
+  isSpec: "True"
+  fullName: Eunomia.FloatExtensions.Map
+  nameWithType: FloatExtensions.Map
+- uid: Eunomia.FloatExtensions.Wrap(System.Single,System.Single)
+  name: Wrap(Single, Single)
+  href: api/Eunomia.FloatExtensions.html#Eunomia_FloatExtensions_Wrap_System_Single_System_Single_
+  commentId: M:Eunomia.FloatExtensions.Wrap(System.Single,System.Single)
+  fullName: Eunomia.FloatExtensions.Wrap(System.Single, System.Single)
+  nameWithType: FloatExtensions.Wrap(Single, Single)
+- uid: Eunomia.FloatExtensions.Wrap*
+  name: Wrap
+  href: api/Eunomia.FloatExtensions.html#Eunomia_FloatExtensions_Wrap_
+  commentId: Overload:Eunomia.FloatExtensions.Wrap
+  isSpec: "True"
+  fullName: Eunomia.FloatExtensions.Wrap
+  nameWithType: FloatExtensions.Wrap
+- uid: Eunomia.IEnumerableExtensions
+  name: IEnumerableExtensions
+  href: api/Eunomia.IEnumerableExtensions.html
+  commentId: T:Eunomia.IEnumerableExtensions
+  fullName: Eunomia.IEnumerableExtensions
+  nameWithType: IEnumerableExtensions
+- uid: Eunomia.IEnumerableExtensions.Clone*
+  name: Clone
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Clone_
+  commentId: Overload:Eunomia.IEnumerableExtensions.Clone
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.Clone
+  nameWithType: IEnumerableExtensions.Clone
+- uid: Eunomia.IEnumerableExtensions.Clone``1(IEnumerable{``0})
+  name: Clone<T>(IEnumerable<T>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Clone__1_IEnumerable___0__
+  commentId: M:Eunomia.IEnumerableExtensions.Clone``1(IEnumerable{``0})
+  name.vb: Clone(Of T)(IEnumerable(Of T))
+  fullName: Eunomia.IEnumerableExtensions.Clone<T>(IEnumerable<T>)
+  fullName.vb: Eunomia.IEnumerableExtensions.Clone(Of T)(IEnumerable(Of T))
+  nameWithType: IEnumerableExtensions.Clone<T>(IEnumerable<T>)
+  nameWithType.vb: IEnumerableExtensions.Clone(Of T)(IEnumerable(Of T))
+- uid: Eunomia.IEnumerableExtensions.Copy*
+  name: Copy
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Copy_
+  commentId: Overload:Eunomia.IEnumerableExtensions.Copy
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.Copy
+  nameWithType: IEnumerableExtensions.Copy
+- uid: Eunomia.IEnumerableExtensions.Copy``1(IEnumerable{``0})
+  name: Copy<T>(IEnumerable<T>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Copy__1_IEnumerable___0__
+  commentId: M:Eunomia.IEnumerableExtensions.Copy``1(IEnumerable{``0})
+  name.vb: Copy(Of T)(IEnumerable(Of T))
+  fullName: Eunomia.IEnumerableExtensions.Copy<T>(IEnumerable<T>)
+  fullName.vb: Eunomia.IEnumerableExtensions.Copy(Of T)(IEnumerable(Of T))
+  nameWithType: IEnumerableExtensions.Copy<T>(IEnumerable<T>)
+  nameWithType.vb: IEnumerableExtensions.Copy(Of T)(IEnumerable(Of T))
+- uid: Eunomia.IEnumerableExtensions.EqualContents*
+  name: EqualContents
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_EqualContents_
+  commentId: Overload:Eunomia.IEnumerableExtensions.EqualContents
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.EqualContents
+  nameWithType: IEnumerableExtensions.EqualContents
+- uid: Eunomia.IEnumerableExtensions.EqualContents``1(IEnumerable{``0}[],IEnumerable{``0}[])
+  name: EqualContents<T>(IEnumerable<T>[], IEnumerable<T>[])
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_EqualContents__1_IEnumerable___0____IEnumerable___0____
+  commentId: M:Eunomia.IEnumerableExtensions.EqualContents``1(IEnumerable{``0}[],IEnumerable{``0}[])
+  name.vb: EqualContents(Of T)(IEnumerable(Of T)(), IEnumerable(Of T)())
+  fullName: Eunomia.IEnumerableExtensions.EqualContents<T>(IEnumerable<T>[], IEnumerable<T>[])
+  fullName.vb: Eunomia.IEnumerableExtensions.EqualContents(Of T)(IEnumerable(Of T)(), IEnumerable(Of T)())
+  nameWithType: IEnumerableExtensions.EqualContents<T>(IEnumerable<T>[], IEnumerable<T>[])
+  nameWithType.vb: IEnumerableExtensions.EqualContents(Of T)(IEnumerable(Of T)(), IEnumerable(Of T)())
+- uid: Eunomia.IEnumerableExtensions.Filter*
+  name: Filter
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Filter_
+  commentId: Overload:Eunomia.IEnumerableExtensions.Filter
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.Filter
+  nameWithType: IEnumerableExtensions.Filter
+- uid: Eunomia.IEnumerableExtensions.Filter``1(IEnumerable{``0},Func{``0,System.Boolean})
+  name: Filter<T>(IEnumerable<T>, Func<T, Boolean>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Filter__1_IEnumerable___0__Func___0_System_Boolean__
+  commentId: M:Eunomia.IEnumerableExtensions.Filter``1(IEnumerable{``0},Func{``0,System.Boolean})
+  name.vb: Filter(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+  fullName: Eunomia.IEnumerableExtensions.Filter<T>(IEnumerable<T>, Func<T, System.Boolean>)
+  fullName.vb: Eunomia.IEnumerableExtensions.Filter(Of T)(IEnumerable(Of T), Func(Of T, System.Boolean))
+  nameWithType: IEnumerableExtensions.Filter<T>(IEnumerable<T>, Func<T, Boolean>)
+  nameWithType.vb: IEnumerableExtensions.Filter(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+- uid: Eunomia.IEnumerableExtensions.Filter``1(IEnumerable{``0},Func{``0,System.Int32,System.Boolean})
+  name: Filter<T>(IEnumerable<T>, Func<T, Int32, Boolean>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Filter__1_IEnumerable___0__Func___0_System_Int32_System_Boolean__
+  commentId: M:Eunomia.IEnumerableExtensions.Filter``1(IEnumerable{``0},Func{``0,System.Int32,System.Boolean})
+  name.vb: Filter(Of T)(IEnumerable(Of T), Func(Of T, Int32, Boolean))
+  fullName: Eunomia.IEnumerableExtensions.Filter<T>(IEnumerable<T>, Func<T, System.Int32, System.Boolean>)
+  fullName.vb: Eunomia.IEnumerableExtensions.Filter(Of T)(IEnumerable(Of T), Func(Of T, System.Int32, System.Boolean))
+  nameWithType: IEnumerableExtensions.Filter<T>(IEnumerable<T>, Func<T, Int32, Boolean>)
+  nameWithType.vb: IEnumerableExtensions.Filter(Of T)(IEnumerable(Of T), Func(Of T, Int32, Boolean))
+- uid: Eunomia.IEnumerableExtensions.FilterIsNullOrWhiteSpace(IEnumerable{System.String})
+  name: FilterIsNullOrWhiteSpace(IEnumerable<String>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_FilterIsNullOrWhiteSpace_IEnumerable_System_String__
+  commentId: M:Eunomia.IEnumerableExtensions.FilterIsNullOrWhiteSpace(IEnumerable{System.String})
+  name.vb: FilterIsNullOrWhiteSpace(IEnumerable(Of String))
+  fullName: Eunomia.IEnumerableExtensions.FilterIsNullOrWhiteSpace(IEnumerable<System.String>)
+  fullName.vb: Eunomia.IEnumerableExtensions.FilterIsNullOrWhiteSpace(IEnumerable(Of System.String))
+  nameWithType: IEnumerableExtensions.FilterIsNullOrWhiteSpace(IEnumerable<String>)
+  nameWithType.vb: IEnumerableExtensions.FilterIsNullOrWhiteSpace(IEnumerable(Of String))
+- uid: Eunomia.IEnumerableExtensions.FilterIsNullOrWhiteSpace*
+  name: FilterIsNullOrWhiteSpace
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_FilterIsNullOrWhiteSpace_
+  commentId: Overload:Eunomia.IEnumerableExtensions.FilterIsNullOrWhiteSpace
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.FilterIsNullOrWhiteSpace
+  nameWithType: IEnumerableExtensions.FilterIsNullOrWhiteSpace
+- uid: Eunomia.IEnumerableExtensions.FilterNot*
+  name: FilterNot
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_FilterNot_
+  commentId: Overload:Eunomia.IEnumerableExtensions.FilterNot
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.FilterNot
+  nameWithType: IEnumerableExtensions.FilterNot
+- uid: Eunomia.IEnumerableExtensions.FilterNot``1(IEnumerable{``0},Func{``0,System.Boolean})
+  name: FilterNot<T>(IEnumerable<T>, Func<T, Boolean>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_FilterNot__1_IEnumerable___0__Func___0_System_Boolean__
+  commentId: M:Eunomia.IEnumerableExtensions.FilterNot``1(IEnumerable{``0},Func{``0,System.Boolean})
+  name.vb: FilterNot(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+  fullName: Eunomia.IEnumerableExtensions.FilterNot<T>(IEnumerable<T>, Func<T, System.Boolean>)
+  fullName.vb: Eunomia.IEnumerableExtensions.FilterNot(Of T)(IEnumerable(Of T), Func(Of T, System.Boolean))
+  nameWithType: IEnumerableExtensions.FilterNot<T>(IEnumerable<T>, Func<T, Boolean>)
+  nameWithType.vb: IEnumerableExtensions.FilterNot(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+- uid: Eunomia.IEnumerableExtensions.FilterNot``1(IEnumerable{``0},Func{``0,System.Int32,System.Boolean})
+  name: FilterNot<T>(IEnumerable<T>, Func<T, Int32, Boolean>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_FilterNot__1_IEnumerable___0__Func___0_System_Int32_System_Boolean__
+  commentId: M:Eunomia.IEnumerableExtensions.FilterNot``1(IEnumerable{``0},Func{``0,System.Int32,System.Boolean})
+  name.vb: FilterNot(Of T)(IEnumerable(Of T), Func(Of T, Int32, Boolean))
+  fullName: Eunomia.IEnumerableExtensions.FilterNot<T>(IEnumerable<T>, Func<T, System.Int32, System.Boolean>)
+  fullName.vb: Eunomia.IEnumerableExtensions.FilterNot(Of T)(IEnumerable(Of T), Func(Of T, System.Int32, System.Boolean))
+  nameWithType: IEnumerableExtensions.FilterNot<T>(IEnumerable<T>, Func<T, Int32, Boolean>)
+  nameWithType.vb: IEnumerableExtensions.FilterNot(Of T)(IEnumerable(Of T), Func(Of T, Int32, Boolean))
+- uid: Eunomia.IEnumerableExtensions.FilterNullOrEmpty(IEnumerable{System.String})
+  name: FilterNullOrEmpty(IEnumerable<String>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_FilterNullOrEmpty_IEnumerable_System_String__
+  commentId: M:Eunomia.IEnumerableExtensions.FilterNullOrEmpty(IEnumerable{System.String})
+  name.vb: FilterNullOrEmpty(IEnumerable(Of String))
+  fullName: Eunomia.IEnumerableExtensions.FilterNullOrEmpty(IEnumerable<System.String>)
+  fullName.vb: Eunomia.IEnumerableExtensions.FilterNullOrEmpty(IEnumerable(Of System.String))
+  nameWithType: IEnumerableExtensions.FilterNullOrEmpty(IEnumerable<String>)
+  nameWithType.vb: IEnumerableExtensions.FilterNullOrEmpty(IEnumerable(Of String))
+- uid: Eunomia.IEnumerableExtensions.FilterNullOrEmpty*
+  name: FilterNullOrEmpty
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_FilterNullOrEmpty_
+  commentId: Overload:Eunomia.IEnumerableExtensions.FilterNullOrEmpty
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.FilterNullOrEmpty
+  nameWithType: IEnumerableExtensions.FilterNullOrEmpty
+- uid: Eunomia.IEnumerableExtensions.Find*
+  name: Find
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Find_
+  commentId: Overload:Eunomia.IEnumerableExtensions.Find
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.Find
+  nameWithType: IEnumerableExtensions.Find
+- uid: Eunomia.IEnumerableExtensions.Find``1(IEnumerable{``0},Func{``0,System.Int32,System.Boolean})
+  name: Find<T>(IEnumerable<T>, Func<T, Int32, Boolean>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Find__1_IEnumerable___0__Func___0_System_Int32_System_Boolean__
+  commentId: M:Eunomia.IEnumerableExtensions.Find``1(IEnumerable{``0},Func{``0,System.Int32,System.Boolean})
+  name.vb: Find(Of T)(IEnumerable(Of T), Func(Of T, Int32, Boolean))
+  fullName: Eunomia.IEnumerableExtensions.Find<T>(IEnumerable<T>, Func<T, System.Int32, System.Boolean>)
+  fullName.vb: Eunomia.IEnumerableExtensions.Find(Of T)(IEnumerable(Of T), Func(Of T, System.Int32, System.Boolean))
+  nameWithType: IEnumerableExtensions.Find<T>(IEnumerable<T>, Func<T, Int32, Boolean>)
+  nameWithType.vb: IEnumerableExtensions.Find(Of T)(IEnumerable(Of T), Func(Of T, Int32, Boolean))
+- uid: Eunomia.IEnumerableExtensions.FlatMap*
+  name: FlatMap
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_FlatMap_
+  commentId: Overload:Eunomia.IEnumerableExtensions.FlatMap
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.FlatMap
+  nameWithType: IEnumerableExtensions.FlatMap
+- uid: Eunomia.IEnumerableExtensions.FlatMap``1(IEnumerable{IEnumerable{``0}})
+  name: FlatMap<T>(IEnumerable<IEnumerable<T>>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_FlatMap__1_IEnumerable_IEnumerable___0___
+  commentId: M:Eunomia.IEnumerableExtensions.FlatMap``1(IEnumerable{IEnumerable{``0}})
+  name.vb: FlatMap(Of T)(IEnumerable(Of IEnumerable(Of T)))
+  fullName: Eunomia.IEnumerableExtensions.FlatMap<T>(IEnumerable<IEnumerable<T>>)
+  fullName.vb: Eunomia.IEnumerableExtensions.FlatMap(Of T)(IEnumerable(Of IEnumerable(Of T)))
+  nameWithType: IEnumerableExtensions.FlatMap<T>(IEnumerable<IEnumerable<T>>)
+  nameWithType.vb: IEnumerableExtensions.FlatMap(Of T)(IEnumerable(Of IEnumerable(Of T)))
+- uid: Eunomia.IEnumerableExtensions.ForEach*
+  name: ForEach
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_ForEach_
+  commentId: Overload:Eunomia.IEnumerableExtensions.ForEach
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.ForEach
+  nameWithType: IEnumerableExtensions.ForEach
+- uid: Eunomia.IEnumerableExtensions.ForEach``1(IEnumerable{``0},Action{``0,System.Int32})
+  name: ForEach<T>(IEnumerable<T>, Action<T, Int32>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_ForEach__1_IEnumerable___0__Action___0_System_Int32__
+  commentId: M:Eunomia.IEnumerableExtensions.ForEach``1(IEnumerable{``0},Action{``0,System.Int32})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T, Int32))
+  fullName: Eunomia.IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T, System.Int32>)
+  fullName.vb: Eunomia.IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T, System.Int32))
+  nameWithType: IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T, Int32>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T, Int32))
+- uid: Eunomia.IEnumerableExtensions.ForEach``1(IEnumerable{``0},Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_ForEach__1_IEnumerable___0__Action___0__
+  commentId: M:Eunomia.IEnumerableExtensions.ForEach``1(IEnumerable{``0},Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: Eunomia.IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
+  fullName.vb: Eunomia.IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  nameWithType: IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: Eunomia.IEnumerableExtensions.ForEach``1(IEnumerable{``0},Func{``0,System.Boolean})
+  name: ForEach<T>(IEnumerable<T>, Func<T, Boolean>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_ForEach__1_IEnumerable___0__Func___0_System_Boolean__
+  commentId: M:Eunomia.IEnumerableExtensions.ForEach``1(IEnumerable{``0},Func{``0,System.Boolean})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+  fullName: Eunomia.IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Func<T, System.Boolean>)
+  fullName.vb: Eunomia.IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Func(Of T, System.Boolean))
+  nameWithType: IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Func<T, Boolean>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+- uid: Eunomia.IEnumerableExtensions.ForEach``1(IEnumerable{``0},Func{``0,System.Int32,System.Boolean})
+  name: ForEach<T>(IEnumerable<T>, Func<T, Int32, Boolean>)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_ForEach__1_IEnumerable___0__Func___0_System_Int32_System_Boolean__
+  commentId: M:Eunomia.IEnumerableExtensions.ForEach``1(IEnumerable{``0},Func{``0,System.Int32,System.Boolean})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Func(Of T, Int32, Boolean))
+  fullName: Eunomia.IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Func<T, System.Int32, System.Boolean>)
+  fullName.vb: Eunomia.IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Func(Of T, System.Int32, System.Boolean))
+  nameWithType: IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Func<T, Int32, Boolean>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Func(Of T, Int32, Boolean))
+- uid: Eunomia.IEnumerableExtensions.Found`1
+  name: IEnumerableExtensions.Found<T>
+  href: api/Eunomia.IEnumerableExtensions.Found-1.html
+  commentId: T:Eunomia.IEnumerableExtensions.Found`1
+  name.vb: IEnumerableExtensions.Found(Of T)
+  fullName: Eunomia.IEnumerableExtensions.Found<T>
+  fullName.vb: Eunomia.IEnumerableExtensions.Found(Of T)
+  nameWithType: IEnumerableExtensions.Found<T>
+  nameWithType.vb: IEnumerableExtensions.Found(Of T)
+- uid: Eunomia.IEnumerableExtensions.Found`1.found
+  name: found
+  href: api/Eunomia.IEnumerableExtensions.Found-1.html#Eunomia_IEnumerableExtensions_Found_1_found
+  commentId: F:Eunomia.IEnumerableExtensions.Found`1.found
+  fullName: Eunomia.IEnumerableExtensions.Found<T>.found
+  fullName.vb: Eunomia.IEnumerableExtensions.Found(Of T).found
+  nameWithType: IEnumerableExtensions.Found<T>.found
+  nameWithType.vb: IEnumerableExtensions.Found(Of T).found
+- uid: Eunomia.IEnumerableExtensions.Found`1.index
+  name: index
+  href: api/Eunomia.IEnumerableExtensions.Found-1.html#Eunomia_IEnumerableExtensions_Found_1_index
+  commentId: F:Eunomia.IEnumerableExtensions.Found`1.index
+  fullName: Eunomia.IEnumerableExtensions.Found<T>.index
+  fullName.vb: Eunomia.IEnumerableExtensions.Found(Of T).index
+  nameWithType: IEnumerableExtensions.Found<T>.index
+  nameWithType.vb: IEnumerableExtensions.Found(Of T).index
+- uid: Eunomia.IEnumerableExtensions.Found`1.result
+  name: result
+  href: api/Eunomia.IEnumerableExtensions.Found-1.html#Eunomia_IEnumerableExtensions_Found_1_result
+  commentId: F:Eunomia.IEnumerableExtensions.Found`1.result
+  fullName: Eunomia.IEnumerableExtensions.Found<T>.result
+  fullName.vb: Eunomia.IEnumerableExtensions.Found(Of T).result
+  nameWithType: IEnumerableExtensions.Found<T>.result
+  nameWithType.vb: IEnumerableExtensions.Found(Of T).result
+- uid: Eunomia.IEnumerableExtensions.RandomElement*
+  name: RandomElement
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_RandomElement_
+  commentId: Overload:Eunomia.IEnumerableExtensions.RandomElement
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.RandomElement
+  nameWithType: IEnumerableExtensions.RandomElement
+- uid: Eunomia.IEnumerableExtensions.RandomElement``1(IEnumerable{``0},Eunomia.IRandom)
+  name: RandomElement<T>(IEnumerable<T>, IRandom)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_RandomElement__1_IEnumerable___0__Eunomia_IRandom_
+  commentId: M:Eunomia.IEnumerableExtensions.RandomElement``1(IEnumerable{``0},Eunomia.IRandom)
+  name.vb: RandomElement(Of T)(IEnumerable(Of T), IRandom)
+  fullName: Eunomia.IEnumerableExtensions.RandomElement<T>(IEnumerable<T>, Eunomia.IRandom)
+  fullName.vb: Eunomia.IEnumerableExtensions.RandomElement(Of T)(IEnumerable(Of T), Eunomia.IRandom)
+  nameWithType: IEnumerableExtensions.RandomElement<T>(IEnumerable<T>, IRandom)
+  nameWithType.vb: IEnumerableExtensions.RandomElement(Of T)(IEnumerable(Of T), IRandom)
+- uid: Eunomia.IEnumerableExtensions.RandomIndex*
+  name: RandomIndex
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_RandomIndex_
+  commentId: Overload:Eunomia.IEnumerableExtensions.RandomIndex
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.RandomIndex
+  nameWithType: IEnumerableExtensions.RandomIndex
+- uid: Eunomia.IEnumerableExtensions.RandomIndex``1(IEnumerable{``0},Eunomia.IRandom)
+  name: RandomIndex<T>(IEnumerable<T>, IRandom)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_RandomIndex__1_IEnumerable___0__Eunomia_IRandom_
+  commentId: M:Eunomia.IEnumerableExtensions.RandomIndex``1(IEnumerable{``0},Eunomia.IRandom)
+  name.vb: RandomIndex(Of T)(IEnumerable(Of T), IRandom)
+  fullName: Eunomia.IEnumerableExtensions.RandomIndex<T>(IEnumerable<T>, Eunomia.IRandom)
+  fullName.vb: Eunomia.IEnumerableExtensions.RandomIndex(Of T)(IEnumerable(Of T), Eunomia.IRandom)
+  nameWithType: IEnumerableExtensions.RandomIndex<T>(IEnumerable<T>, IRandom)
+  nameWithType.vb: IEnumerableExtensions.RandomIndex(Of T)(IEnumerable(Of T), IRandom)
+- uid: Eunomia.IEnumerableExtensions.Reduce*
+  name: Reduce
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Reduce_
+  commentId: Overload:Eunomia.IEnumerableExtensions.Reduce
+  isSpec: "True"
+  fullName: Eunomia.IEnumerableExtensions.Reduce
+  nameWithType: IEnumerableExtensions.Reduce
+- uid: Eunomia.IEnumerableExtensions.Reduce``2(IEnumerable{``0},Func{``1,``0,``1},``1)
+  name: Reduce<T, TReduced>(IEnumerable<T>, Func<TReduced, T, TReduced>, TReduced)
+  href: api/Eunomia.IEnumerableExtensions.html#Eunomia_IEnumerableExtensions_Reduce__2_IEnumerable___0__Func___1___0___1____1_
+  commentId: M:Eunomia.IEnumerableExtensions.Reduce``2(IEnumerable{``0},Func{``1,``0,``1},``1)
+  name.vb: Reduce(Of T, TReduced)(IEnumerable(Of T), Func(Of TReduced, T, TReduced), TReduced)
+  fullName: Eunomia.IEnumerableExtensions.Reduce<T, TReduced>(IEnumerable<T>, Func<TReduced, T, TReduced>, TReduced)
+  fullName.vb: Eunomia.IEnumerableExtensions.Reduce(Of T, TReduced)(IEnumerable(Of T), Func(Of TReduced, T, TReduced), TReduced)
+  nameWithType: IEnumerableExtensions.Reduce<T, TReduced>(IEnumerable<T>, Func<TReduced, T, TReduced>, TReduced)
+  nameWithType.vb: IEnumerableExtensions.Reduce(Of T, TReduced)(IEnumerable(Of T), Func(Of TReduced, T, TReduced), TReduced)
+- uid: Eunomia.IntExtensions
+  name: IntExtensions
+  href: api/Eunomia.IntExtensions.html
+  commentId: T:Eunomia.IntExtensions
+  fullName: Eunomia.IntExtensions
+  nameWithType: IntExtensions
+- uid: Eunomia.IntExtensions.Clamp(System.Int32,System.Int32,System.Int32)
+  name: Clamp(Int32, Int32, Int32)
+  href: api/Eunomia.IntExtensions.html#Eunomia_IntExtensions_Clamp_System_Int32_System_Int32_System_Int32_
+  commentId: M:Eunomia.IntExtensions.Clamp(System.Int32,System.Int32,System.Int32)
+  fullName: Eunomia.IntExtensions.Clamp(System.Int32, System.Int32, System.Int32)
+  nameWithType: IntExtensions.Clamp(Int32, Int32, Int32)
+- uid: Eunomia.IntExtensions.Clamp*
+  name: Clamp
+  href: api/Eunomia.IntExtensions.html#Eunomia_IntExtensions_Clamp_
+  commentId: Overload:Eunomia.IntExtensions.Clamp
+  isSpec: "True"
+  fullName: Eunomia.IntExtensions.Clamp
+  nameWithType: IntExtensions.Clamp
+- uid: Eunomia.IntExtensions.ClampUpperExclusive(System.Int32,System.Int32)
+  name: ClampUpperExclusive(Int32, Int32)
+  href: api/Eunomia.IntExtensions.html#Eunomia_IntExtensions_ClampUpperExclusive_System_Int32_System_Int32_
+  commentId: M:Eunomia.IntExtensions.ClampUpperExclusive(System.Int32,System.Int32)
+  fullName: Eunomia.IntExtensions.ClampUpperExclusive(System.Int32, System.Int32)
+  nameWithType: IntExtensions.ClampUpperExclusive(Int32, Int32)
+- uid: Eunomia.IntExtensions.ClampUpperExclusive*
+  name: ClampUpperExclusive
+  href: api/Eunomia.IntExtensions.html#Eunomia_IntExtensions_ClampUpperExclusive_
+  commentId: Overload:Eunomia.IntExtensions.ClampUpperExclusive
+  isSpec: "True"
+  fullName: Eunomia.IntExtensions.ClampUpperExclusive
+  nameWithType: IntExtensions.ClampUpperExclusive
+- uid: Eunomia.IntExtensions.Map(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: Map(Int32, Int32, Int32, Int32, Int32)
+  href: api/Eunomia.IntExtensions.html#Eunomia_IntExtensions_Map_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:Eunomia.IntExtensions.Map(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: Eunomia.IntExtensions.Map(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: IntExtensions.Map(Int32, Int32, Int32, Int32, Int32)
+- uid: Eunomia.IntExtensions.Map*
+  name: Map
+  href: api/Eunomia.IntExtensions.html#Eunomia_IntExtensions_Map_
+  commentId: Overload:Eunomia.IntExtensions.Map
+  isSpec: "True"
+  fullName: Eunomia.IntExtensions.Map
+  nameWithType: IntExtensions.Map
+- uid: Eunomia.IntExtensions.Wrap(System.Int32,System.Int32)
+  name: Wrap(Int32, Int32)
+  href: api/Eunomia.IntExtensions.html#Eunomia_IntExtensions_Wrap_System_Int32_System_Int32_
+  commentId: M:Eunomia.IntExtensions.Wrap(System.Int32,System.Int32)
+  fullName: Eunomia.IntExtensions.Wrap(System.Int32, System.Int32)
+  nameWithType: IntExtensions.Wrap(Int32, Int32)
+- uid: Eunomia.IntExtensions.Wrap*
+  name: Wrap
+  href: api/Eunomia.IntExtensions.html#Eunomia_IntExtensions_Wrap_
+  commentId: Overload:Eunomia.IntExtensions.Wrap
+  isSpec: "True"
+  fullName: Eunomia.IntExtensions.Wrap
+  nameWithType: IntExtensions.Wrap
+- uid: Eunomia.IRandom
+  name: IRandom
+  href: api/Eunomia.IRandom.html
+  commentId: T:Eunomia.IRandom
+  fullName: Eunomia.IRandom
+  nameWithType: IRandom
+- uid: Eunomia.IRandom.Next
+  name: Next()
+  href: api/Eunomia.IRandom.html#Eunomia_IRandom_Next
+  commentId: M:Eunomia.IRandom.Next
+  fullName: Eunomia.IRandom.Next()
+  nameWithType: IRandom.Next()
+- uid: Eunomia.IRandom.Next(System.Int32)
+  name: Next(Int32)
+  href: api/Eunomia.IRandom.html#Eunomia_IRandom_Next_System_Int32_
+  commentId: M:Eunomia.IRandom.Next(System.Int32)
+  fullName: Eunomia.IRandom.Next(System.Int32)
+  nameWithType: IRandom.Next(Int32)
+- uid: Eunomia.IRandom.Next(System.Int32,System.Int32)
+  name: Next(Int32, Int32)
+  href: api/Eunomia.IRandom.html#Eunomia_IRandom_Next_System_Int32_System_Int32_
+  commentId: M:Eunomia.IRandom.Next(System.Int32,System.Int32)
+  fullName: Eunomia.IRandom.Next(System.Int32, System.Int32)
+  nameWithType: IRandom.Next(Int32, Int32)
+- uid: Eunomia.IRandom.Next*
+  name: Next
+  href: api/Eunomia.IRandom.html#Eunomia_IRandom_Next_
+  commentId: Overload:Eunomia.IRandom.Next
+  isSpec: "True"
+  fullName: Eunomia.IRandom.Next
+  nameWithType: IRandom.Next
+- uid: Eunomia.ListExtensions
+  name: ListExtensions
+  href: api/Eunomia.ListExtensions.html
+  commentId: T:Eunomia.ListExtensions
+  fullName: Eunomia.ListExtensions
+  nameWithType: ListExtensions
+- uid: Eunomia.ListExtensions.ForEach*
+  name: ForEach
+  href: api/Eunomia.ListExtensions.html#Eunomia_ListExtensions_ForEach_
+  commentId: Overload:Eunomia.ListExtensions.ForEach
+  isSpec: "True"
+  fullName: Eunomia.ListExtensions.ForEach
+  nameWithType: ListExtensions.ForEach
+- uid: Eunomia.ListExtensions.ForEach``1(IList{``0},Action{``0})
+  name: ForEach<T>(IList<T>, Action<T>)
+  href: api/Eunomia.ListExtensions.html#Eunomia_ListExtensions_ForEach__1_IList___0__Action___0__
+  commentId: M:Eunomia.ListExtensions.ForEach``1(IList{``0},Action{``0})
+  name.vb: ForEach(Of T)(IList(Of T), Action(Of T))
+  fullName: Eunomia.ListExtensions.ForEach<T>(IList<T>, Action<T>)
+  fullName.vb: Eunomia.ListExtensions.ForEach(Of T)(IList(Of T), Action(Of T))
+  nameWithType: ListExtensions.ForEach<T>(IList<T>, Action<T>)
+  nameWithType.vb: ListExtensions.ForEach(Of T)(IList(Of T), Action(Of T))
+- uid: Eunomia.ListExtensions.RemoveAll*
+  name: RemoveAll
+  href: api/Eunomia.ListExtensions.html#Eunomia_ListExtensions_RemoveAll_
+  commentId: Overload:Eunomia.ListExtensions.RemoveAll
+  isSpec: "True"
+  fullName: Eunomia.ListExtensions.RemoveAll
+  nameWithType: ListExtensions.RemoveAll
+- uid: Eunomia.ListExtensions.RemoveAll``1(IList{``0},IList{``0})
+  name: RemoveAll<T>(IList<T>, IList<T>)
+  href: api/Eunomia.ListExtensions.html#Eunomia_ListExtensions_RemoveAll__1_IList___0__IList___0__
+  commentId: M:Eunomia.ListExtensions.RemoveAll``1(IList{``0},IList{``0})
+  name.vb: RemoveAll(Of T)(IList(Of T), IList(Of T))
+  fullName: Eunomia.ListExtensions.RemoveAll<T>(IList<T>, IList<T>)
+  fullName.vb: Eunomia.ListExtensions.RemoveAll(Of T)(IList(Of T), IList(Of T))
+  nameWithType: ListExtensions.RemoveAll<T>(IList<T>, IList<T>)
+  nameWithType.vb: ListExtensions.RemoveAll(Of T)(IList(Of T), IList(Of T))
+- uid: Eunomia.Math
+  name: Math
+  href: api/Eunomia.Math.html
+  commentId: T:Eunomia.Math
+  fullName: Eunomia.Math
+  nameWithType: Math
+- uid: Eunomia.Math.FitWithAspect(System.ValueTuple{System.Single,System.Single},System.ValueTuple{System.Single,System.Single})
+  name: FitWithAspect((Single, Single), (Single, Single))
+  href: api/Eunomia.Math.html#Eunomia_Math_FitWithAspect_System_ValueTuple_System_Single_System_Single__System_ValueTuple_System_Single_System_Single__
+  commentId: M:Eunomia.Math.FitWithAspect(System.ValueTuple{System.Single,System.Single},System.ValueTuple{System.Single,System.Single})
+  fullName: Eunomia.Math.FitWithAspect(System.ValueTuple<System.Single, System.Single>, System.ValueTuple<System.Single, System.Single>)
+  fullName.vb: Eunomia.Math.FitWithAspect(System.ValueTuple(Of System.Single, System.Single), System.ValueTuple(Of System.Single, System.Single))
+  nameWithType: Math.FitWithAspect((Single, Single), (Single, Single))
+- uid: Eunomia.Math.FitWithAspect(Vector2,Vector2)
+  name: FitWithAspect(Vector2, Vector2)
+  href: api/Eunomia.Math.html#Eunomia_Math_FitWithAspect_Vector2_Vector2_
+  commentId: M:Eunomia.Math.FitWithAspect(Vector2,Vector2)
+  fullName: Eunomia.Math.FitWithAspect(Vector2, Vector2)
+  nameWithType: Math.FitWithAspect(Vector2, Vector2)
+- uid: Eunomia.Math.FitWithAspect*
+  name: FitWithAspect
+  href: api/Eunomia.Math.html#Eunomia_Math_FitWithAspect_
+  commentId: Overload:Eunomia.Math.FitWithAspect
+  isSpec: "True"
+  fullName: Eunomia.Math.FitWithAspect
+  nameWithType: Math.FitWithAspect
+- uid: Eunomia.StateMachine`1
+  name: StateMachine<TState>
+  href: api/Eunomia.StateMachine-1.html
+  commentId: T:Eunomia.StateMachine`1
+  name.vb: StateMachine(Of TState)
+  fullName: Eunomia.StateMachine<TState>
+  fullName.vb: Eunomia.StateMachine(Of TState)
+  nameWithType: StateMachine<TState>
+  nameWithType.vb: StateMachine(Of TState)
+- uid: Eunomia.StateMachine`1.#ctor(`0)
+  name: StateMachine(TState)
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1__ctor__0_
+  commentId: M:Eunomia.StateMachine`1.#ctor(`0)
+  fullName: Eunomia.StateMachine<TState>.StateMachine(TState)
+  fullName.vb: Eunomia.StateMachine(Of TState).StateMachine(TState)
+  nameWithType: StateMachine<TState>.StateMachine(TState)
+  nameWithType.vb: StateMachine(Of TState).StateMachine(TState)
+- uid: Eunomia.StateMachine`1.#ctor*
+  name: StateMachine
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1__ctor_
+  commentId: Overload:Eunomia.StateMachine`1.#ctor
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.StateMachine
+  fullName.vb: Eunomia.StateMachine(Of TState).StateMachine
+  nameWithType: StateMachine<TState>.StateMachine
+  nameWithType.vb: StateMachine(Of TState).StateMachine
+- uid: Eunomia.StateMachine`1.AddTransition(Eunomia.StateMachine{`0}.Transition)
+  name: AddTransition(StateMachine<TState>.Transition)
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_AddTransition_Eunomia_StateMachine__0__Transition_
+  commentId: M:Eunomia.StateMachine`1.AddTransition(Eunomia.StateMachine{`0}.Transition)
+  name.vb: AddTransition(StateMachine(Of TState).Transition)
+  fullName: Eunomia.StateMachine<TState>.AddTransition(Eunomia.StateMachine<TState>.Transition)
+  fullName.vb: Eunomia.StateMachine(Of TState).AddTransition(Eunomia.StateMachine(Of TState).Transition)
+  nameWithType: StateMachine<TState>.AddTransition(StateMachine<TState>.Transition)
+  nameWithType.vb: StateMachine(Of TState).AddTransition(StateMachine(Of TState).Transition)
+- uid: Eunomia.StateMachine`1.AddTransition*
+  name: AddTransition
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_AddTransition_
+  commentId: Overload:Eunomia.StateMachine`1.AddTransition
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.AddTransition
+  fullName.vb: Eunomia.StateMachine(Of TState).AddTransition
+  nameWithType: StateMachine<TState>.AddTransition
+  nameWithType.vb: StateMachine(Of TState).AddTransition
+- uid: Eunomia.StateMachine`1.AddTransitions(Eunomia.StateMachine{`0}.Transition[])
+  name: AddTransitions(StateMachine<TState>.Transition[])
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_AddTransitions_Eunomia_StateMachine__0__Transition___
+  commentId: M:Eunomia.StateMachine`1.AddTransitions(Eunomia.StateMachine{`0}.Transition[])
+  name.vb: AddTransitions(StateMachine(Of TState).Transition())
+  fullName: Eunomia.StateMachine<TState>.AddTransitions(Eunomia.StateMachine<TState>.Transition[])
+  fullName.vb: Eunomia.StateMachine(Of TState).AddTransitions(Eunomia.StateMachine(Of TState).Transition())
+  nameWithType: StateMachine<TState>.AddTransitions(StateMachine<TState>.Transition[])
+  nameWithType.vb: StateMachine(Of TState).AddTransitions(StateMachine(Of TState).Transition())
+- uid: Eunomia.StateMachine`1.AddTransitions*
+  name: AddTransitions
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_AddTransitions_
+  commentId: Overload:Eunomia.StateMachine`1.AddTransitions
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.AddTransitions
+  fullName.vb: Eunomia.StateMachine(Of TState).AddTransitions
+  nameWithType: StateMachine<TState>.AddTransitions
+  nameWithType.vb: StateMachine(Of TState).AddTransitions
+- uid: Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException
+  name: StateMachine<TState>.AttemptedTransitionDuringTransitionException
+  href: api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html
+  commentId: T:Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException
+  name.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException
+  fullName: Eunomia.StateMachine<TState>.AttemptedTransitionDuringTransitionException
+  fullName.vb: Eunomia.StateMachine(Of TState).AttemptedTransitionDuringTransitionException
+  nameWithType: StateMachine<TState>.AttemptedTransitionDuringTransitionException
+  nameWithType.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException
+- uid: Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.#ctor(`0,`0,Eunomia.StateMachine{`0}.Transition)
+  name: AttemptedTransitionDuringTransitionException(TState, TState, StateMachine<TState>.Transition)
+  href: api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html#Eunomia_StateMachine_1_AttemptedTransitionDuringTransitionException__ctor__0__0_Eunomia_StateMachine__0__Transition_
+  commentId: M:Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.#ctor(`0,`0,Eunomia.StateMachine{`0}.Transition)
+  name.vb: AttemptedTransitionDuringTransitionException(TState, TState, StateMachine(Of TState).Transition)
+  fullName: Eunomia.StateMachine<TState>.AttemptedTransitionDuringTransitionException.AttemptedTransitionDuringTransitionException(TState, TState, Eunomia.StateMachine<TState>.Transition)
+  fullName.vb: Eunomia.StateMachine(Of TState).AttemptedTransitionDuringTransitionException.AttemptedTransitionDuringTransitionException(TState, TState, Eunomia.StateMachine(Of TState).Transition)
+  nameWithType: StateMachine<TState>.AttemptedTransitionDuringTransitionException.AttemptedTransitionDuringTransitionException(TState, TState, StateMachine<TState>.Transition)
+  nameWithType.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException.AttemptedTransitionDuringTransitionException(TState, TState, StateMachine(Of TState).Transition)
+- uid: Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.#ctor*
+  name: AttemptedTransitionDuringTransitionException
+  href: api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html#Eunomia_StateMachine_1_AttemptedTransitionDuringTransitionException__ctor_
+  commentId: Overload:Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.#ctor
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.AttemptedTransitionDuringTransitionException.AttemptedTransitionDuringTransitionException
+  fullName.vb: Eunomia.StateMachine(Of TState).AttemptedTransitionDuringTransitionException.AttemptedTransitionDuringTransitionException
+  nameWithType: StateMachine<TState>.AttemptedTransitionDuringTransitionException.AttemptedTransitionDuringTransitionException
+  nameWithType.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException.AttemptedTransitionDuringTransitionException
+- uid: Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.CurrentTransition
+  name: CurrentTransition
+  href: api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html#Eunomia_StateMachine_1_AttemptedTransitionDuringTransitionException_CurrentTransition
+  commentId: P:Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.CurrentTransition
+  fullName: Eunomia.StateMachine<TState>.AttemptedTransitionDuringTransitionException.CurrentTransition
+  fullName.vb: Eunomia.StateMachine(Of TState).AttemptedTransitionDuringTransitionException.CurrentTransition
+  nameWithType: StateMachine<TState>.AttemptedTransitionDuringTransitionException.CurrentTransition
+  nameWithType.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException.CurrentTransition
+- uid: Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.CurrentTransition*
+  name: CurrentTransition
+  href: api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html#Eunomia_StateMachine_1_AttemptedTransitionDuringTransitionException_CurrentTransition_
+  commentId: Overload:Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.CurrentTransition
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.AttemptedTransitionDuringTransitionException.CurrentTransition
+  fullName.vb: Eunomia.StateMachine(Of TState).AttemptedTransitionDuringTransitionException.CurrentTransition
+  nameWithType: StateMachine<TState>.AttemptedTransitionDuringTransitionException.CurrentTransition
+  nameWithType.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException.CurrentTransition
+- uid: Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.From
+  name: From
+  href: api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html#Eunomia_StateMachine_1_AttemptedTransitionDuringTransitionException_From
+  commentId: P:Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.From
+  fullName: Eunomia.StateMachine<TState>.AttemptedTransitionDuringTransitionException.From
+  fullName.vb: Eunomia.StateMachine(Of TState).AttemptedTransitionDuringTransitionException.From
+  nameWithType: StateMachine<TState>.AttemptedTransitionDuringTransitionException.From
+  nameWithType.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException.From
+- uid: Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.From*
+  name: From
+  href: api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html#Eunomia_StateMachine_1_AttemptedTransitionDuringTransitionException_From_
+  commentId: Overload:Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.From
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.AttemptedTransitionDuringTransitionException.From
+  fullName.vb: Eunomia.StateMachine(Of TState).AttemptedTransitionDuringTransitionException.From
+  nameWithType: StateMachine<TState>.AttemptedTransitionDuringTransitionException.From
+  nameWithType.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException.From
+- uid: Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.To
+  name: To
+  href: api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html#Eunomia_StateMachine_1_AttemptedTransitionDuringTransitionException_To
+  commentId: P:Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.To
+  fullName: Eunomia.StateMachine<TState>.AttemptedTransitionDuringTransitionException.To
+  fullName.vb: Eunomia.StateMachine(Of TState).AttemptedTransitionDuringTransitionException.To
+  nameWithType: StateMachine<TState>.AttemptedTransitionDuringTransitionException.To
+  nameWithType.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException.To
+- uid: Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.To*
+  name: To
+  href: api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html#Eunomia_StateMachine_1_AttemptedTransitionDuringTransitionException_To_
+  commentId: Overload:Eunomia.StateMachine`1.AttemptedTransitionDuringTransitionException.To
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.AttemptedTransitionDuringTransitionException.To
+  fullName.vb: Eunomia.StateMachine(Of TState).AttemptedTransitionDuringTransitionException.To
+  nameWithType: StateMachine<TState>.AttemptedTransitionDuringTransitionException.To
+  nameWithType.vb: StateMachine(Of TState).AttemptedTransitionDuringTransitionException.To
+- uid: Eunomia.StateMachine`1.Current
+  name: Current
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_Current
+  commentId: P:Eunomia.StateMachine`1.Current
+  fullName: Eunomia.StateMachine<TState>.Current
+  fullName.vb: Eunomia.StateMachine(Of TState).Current
+  nameWithType: StateMachine<TState>.Current
+  nameWithType.vb: StateMachine(Of TState).Current
+- uid: Eunomia.StateMachine`1.Current*
+  name: Current
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_Current_
+  commentId: Overload:Eunomia.StateMachine`1.Current
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.Current
+  fullName.vb: Eunomia.StateMachine(Of TState).Current
+  nameWithType: StateMachine<TState>.Current
+  nameWithType.vb: StateMachine(Of TState).Current
+- uid: Eunomia.StateMachine`1.InvalidStateException
+  name: StateMachine<TState>.InvalidStateException
+  href: api/Eunomia.StateMachine-1.InvalidStateException.html
+  commentId: T:Eunomia.StateMachine`1.InvalidStateException
+  name.vb: StateMachine(Of TState).InvalidStateException
+  fullName: Eunomia.StateMachine<TState>.InvalidStateException
+  fullName.vb: Eunomia.StateMachine(Of TState).InvalidStateException
+  nameWithType: StateMachine<TState>.InvalidStateException
+  nameWithType.vb: StateMachine(Of TState).InvalidStateException
+- uid: Eunomia.StateMachine`1.InvalidStateException.#ctor(`0,`0)
+  name: InvalidStateException(TState, TState)
+  href: api/Eunomia.StateMachine-1.InvalidStateException.html#Eunomia_StateMachine_1_InvalidStateException__ctor__0__0_
+  commentId: M:Eunomia.StateMachine`1.InvalidStateException.#ctor(`0,`0)
+  fullName: Eunomia.StateMachine<TState>.InvalidStateException.InvalidStateException(TState, TState)
+  fullName.vb: Eunomia.StateMachine(Of TState).InvalidStateException.InvalidStateException(TState, TState)
+  nameWithType: StateMachine<TState>.InvalidStateException.InvalidStateException(TState, TState)
+  nameWithType.vb: StateMachine(Of TState).InvalidStateException.InvalidStateException(TState, TState)
+- uid: Eunomia.StateMachine`1.InvalidStateException.#ctor*
+  name: InvalidStateException
+  href: api/Eunomia.StateMachine-1.InvalidStateException.html#Eunomia_StateMachine_1_InvalidStateException__ctor_
+  commentId: Overload:Eunomia.StateMachine`1.InvalidStateException.#ctor
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.InvalidStateException.InvalidStateException
+  fullName.vb: Eunomia.StateMachine(Of TState).InvalidStateException.InvalidStateException
+  nameWithType: StateMachine<TState>.InvalidStateException.InvalidStateException
+  nameWithType.vb: StateMachine(Of TState).InvalidStateException.InvalidStateException
+- uid: Eunomia.StateMachine`1.InvalidStateException.State
+  name: State
+  href: api/Eunomia.StateMachine-1.InvalidStateException.html#Eunomia_StateMachine_1_InvalidStateException_State
+  commentId: F:Eunomia.StateMachine`1.InvalidStateException.State
+  fullName: Eunomia.StateMachine<TState>.InvalidStateException.State
+  fullName.vb: Eunomia.StateMachine(Of TState).InvalidStateException.State
+  nameWithType: StateMachine<TState>.InvalidStateException.State
+  nameWithType.vb: StateMachine(Of TState).InvalidStateException.State
+- uid: Eunomia.StateMachine`1.InvalidTransitionException
+  name: StateMachine<TState>.InvalidTransitionException
+  href: api/Eunomia.StateMachine-1.InvalidTransitionException.html
+  commentId: T:Eunomia.StateMachine`1.InvalidTransitionException
+  name.vb: StateMachine(Of TState).InvalidTransitionException
+  fullName: Eunomia.StateMachine<TState>.InvalidTransitionException
+  fullName.vb: Eunomia.StateMachine(Of TState).InvalidTransitionException
+  nameWithType: StateMachine<TState>.InvalidTransitionException
+  nameWithType.vb: StateMachine(Of TState).InvalidTransitionException
+- uid: Eunomia.StateMachine`1.InvalidTransitionException.#ctor(`0,`0)
+  name: InvalidTransitionException(TState, TState)
+  href: api/Eunomia.StateMachine-1.InvalidTransitionException.html#Eunomia_StateMachine_1_InvalidTransitionException__ctor__0__0_
+  commentId: M:Eunomia.StateMachine`1.InvalidTransitionException.#ctor(`0,`0)
+  fullName: Eunomia.StateMachine<TState>.InvalidTransitionException.InvalidTransitionException(TState, TState)
+  fullName.vb: Eunomia.StateMachine(Of TState).InvalidTransitionException.InvalidTransitionException(TState, TState)
+  nameWithType: StateMachine<TState>.InvalidTransitionException.InvalidTransitionException(TState, TState)
+  nameWithType.vb: StateMachine(Of TState).InvalidTransitionException.InvalidTransitionException(TState, TState)
+- uid: Eunomia.StateMachine`1.InvalidTransitionException.#ctor*
+  name: InvalidTransitionException
+  href: api/Eunomia.StateMachine-1.InvalidTransitionException.html#Eunomia_StateMachine_1_InvalidTransitionException__ctor_
+  commentId: Overload:Eunomia.StateMachine`1.InvalidTransitionException.#ctor
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.InvalidTransitionException.InvalidTransitionException
+  fullName.vb: Eunomia.StateMachine(Of TState).InvalidTransitionException.InvalidTransitionException
+  nameWithType: StateMachine<TState>.InvalidTransitionException.InvalidTransitionException
+  nameWithType.vb: StateMachine(Of TState).InvalidTransitionException.InvalidTransitionException
+- uid: Eunomia.StateMachine`1.InvalidTransitionException.From
+  name: From
+  href: api/Eunomia.StateMachine-1.InvalidTransitionException.html#Eunomia_StateMachine_1_InvalidTransitionException_From
+  commentId: F:Eunomia.StateMachine`1.InvalidTransitionException.From
+  fullName: Eunomia.StateMachine<TState>.InvalidTransitionException.From
+  fullName.vb: Eunomia.StateMachine(Of TState).InvalidTransitionException.From
+  nameWithType: StateMachine<TState>.InvalidTransitionException.From
+  nameWithType.vb: StateMachine(Of TState).InvalidTransitionException.From
+- uid: Eunomia.StateMachine`1.InvalidTransitionException.To
+  name: To
+  href: api/Eunomia.StateMachine-1.InvalidTransitionException.html#Eunomia_StateMachine_1_InvalidTransitionException_To
+  commentId: F:Eunomia.StateMachine`1.InvalidTransitionException.To
+  fullName: Eunomia.StateMachine<TState>.InvalidTransitionException.To
+  fullName.vb: Eunomia.StateMachine(Of TState).InvalidTransitionException.To
+  nameWithType: StateMachine<TState>.InvalidTransitionException.To
+  nameWithType.vb: StateMachine(Of TState).InvalidTransitionException.To
+- uid: Eunomia.StateMachine`1.IState
+  name: StateMachine<TState>.IState
+  href: api/Eunomia.StateMachine-1.IState.html
+  commentId: T:Eunomia.StateMachine`1.IState
+  name.vb: StateMachine(Of TState).IState
+  fullName: Eunomia.StateMachine<TState>.IState
+  fullName.vb: Eunomia.StateMachine(Of TState).IState
+  nameWithType: StateMachine<TState>.IState
+  nameWithType.vb: StateMachine(Of TState).IState
+- uid: Eunomia.StateMachine`1.IState.ToString
+  name: ToString()
+  href: api/Eunomia.StateMachine-1.IState.html#Eunomia_StateMachine_1_IState_ToString
+  commentId: M:Eunomia.StateMachine`1.IState.ToString
+  fullName: Eunomia.StateMachine<TState>.IState.ToString()
+  fullName.vb: Eunomia.StateMachine(Of TState).IState.ToString()
+  nameWithType: StateMachine<TState>.IState.ToString()
+  nameWithType.vb: StateMachine(Of TState).IState.ToString()
+- uid: Eunomia.StateMachine`1.IState.ToString*
+  name: ToString
+  href: api/Eunomia.StateMachine-1.IState.html#Eunomia_StateMachine_1_IState_ToString_
+  commentId: Overload:Eunomia.StateMachine`1.IState.ToString
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.IState.ToString
+  fullName.vb: Eunomia.StateMachine(Of TState).IState.ToString
+  nameWithType: StateMachine<TState>.IState.ToString
+  nameWithType.vb: StateMachine(Of TState).IState.ToString
+- uid: Eunomia.StateMachine`1.logAttemptedTransitionDuringTransition
+  name: logAttemptedTransitionDuringTransition
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_logAttemptedTransitionDuringTransition
+  commentId: F:Eunomia.StateMachine`1.logAttemptedTransitionDuringTransition
+  fullName: Eunomia.StateMachine<TState>.logAttemptedTransitionDuringTransition
+  fullName.vb: Eunomia.StateMachine(Of TState).logAttemptedTransitionDuringTransition
+  nameWithType: StateMachine<TState>.logAttemptedTransitionDuringTransition
+  nameWithType.vb: StateMachine(Of TState).logAttemptedTransitionDuringTransition
+- uid: Eunomia.StateMachine`1.logInvalidStateTransition
+  name: logInvalidStateTransition
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_logInvalidStateTransition
+  commentId: F:Eunomia.StateMachine`1.logInvalidStateTransition
+  fullName: Eunomia.StateMachine<TState>.logInvalidStateTransition
+  fullName.vb: Eunomia.StateMachine(Of TState).logInvalidStateTransition
+  nameWithType: StateMachine<TState>.logInvalidStateTransition
+  nameWithType.vb: StateMachine(Of TState).logInvalidStateTransition
+- uid: Eunomia.StateMachine`1.logTransitions
+  name: logTransitions
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_logTransitions
+  commentId: F:Eunomia.StateMachine`1.logTransitions
+  fullName: Eunomia.StateMachine<TState>.logTransitions
+  fullName.vb: Eunomia.StateMachine(Of TState).logTransitions
+  nameWithType: StateMachine<TState>.logTransitions
+  nameWithType.vb: StateMachine(Of TState).logTransitions
+- uid: Eunomia.StateMachine`1.logUnhandledExceptions
+  name: logUnhandledExceptions
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_logUnhandledExceptions
+  commentId: F:Eunomia.StateMachine`1.logUnhandledExceptions
+  fullName: Eunomia.StateMachine<TState>.logUnhandledExceptions
+  fullName.vb: Eunomia.StateMachine(Of TState).logUnhandledExceptions
+  nameWithType: StateMachine<TState>.logUnhandledExceptions
+  nameWithType.vb: StateMachine(Of TState).logUnhandledExceptions
+- uid: Eunomia.StateMachine`1.SetPerformAfterEnter(`0,Func{Task})
+  name: SetPerformAfterEnter(TState, Func<Task>)
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetPerformAfterEnter__0_Func_Task__
+  commentId: M:Eunomia.StateMachine`1.SetPerformAfterEnter(`0,Func{Task})
+  name.vb: SetPerformAfterEnter(TState, Func(Of Task))
+  fullName: Eunomia.StateMachine<TState>.SetPerformAfterEnter(TState, Func<Task>)
+  fullName.vb: Eunomia.StateMachine(Of TState).SetPerformAfterEnter(TState, Func(Of Task))
+  nameWithType: StateMachine<TState>.SetPerformAfterEnter(TState, Func<Task>)
+  nameWithType.vb: StateMachine(Of TState).SetPerformAfterEnter(TState, Func(Of Task))
+- uid: Eunomia.StateMachine`1.SetPerformAfterEnter*
+  name: SetPerformAfterEnter
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetPerformAfterEnter_
+  commentId: Overload:Eunomia.StateMachine`1.SetPerformAfterEnter
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.SetPerformAfterEnter
+  fullName.vb: Eunomia.StateMachine(Of TState).SetPerformAfterEnter
+  nameWithType: StateMachine<TState>.SetPerformAfterEnter
+  nameWithType.vb: StateMachine(Of TState).SetPerformAfterEnter
+- uid: Eunomia.StateMachine`1.SetPerformAfterEnterSync(`0,Action)
+  name: SetPerformAfterEnterSync(TState, Action)
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetPerformAfterEnterSync__0_Action_
+  commentId: M:Eunomia.StateMachine`1.SetPerformAfterEnterSync(`0,Action)
+  fullName: Eunomia.StateMachine<TState>.SetPerformAfterEnterSync(TState, Action)
+  fullName.vb: Eunomia.StateMachine(Of TState).SetPerformAfterEnterSync(TState, Action)
+  nameWithType: StateMachine<TState>.SetPerformAfterEnterSync(TState, Action)
+  nameWithType.vb: StateMachine(Of TState).SetPerformAfterEnterSync(TState, Action)
+- uid: Eunomia.StateMachine`1.SetPerformAfterEnterSync*
+  name: SetPerformAfterEnterSync
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetPerformAfterEnterSync_
+  commentId: Overload:Eunomia.StateMachine`1.SetPerformAfterEnterSync
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.SetPerformAfterEnterSync
+  fullName.vb: Eunomia.StateMachine(Of TState).SetPerformAfterEnterSync
+  nameWithType: StateMachine<TState>.SetPerformAfterEnterSync
+  nameWithType.vb: StateMachine(Of TState).SetPerformAfterEnterSync
+- uid: Eunomia.StateMachine`1.SetPerformBeforeEnter(`0,Func{Task})
+  name: SetPerformBeforeEnter(TState, Func<Task>)
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetPerformBeforeEnter__0_Func_Task__
+  commentId: M:Eunomia.StateMachine`1.SetPerformBeforeEnter(`0,Func{Task})
+  name.vb: SetPerformBeforeEnter(TState, Func(Of Task))
+  fullName: Eunomia.StateMachine<TState>.SetPerformBeforeEnter(TState, Func<Task>)
+  fullName.vb: Eunomia.StateMachine(Of TState).SetPerformBeforeEnter(TState, Func(Of Task))
+  nameWithType: StateMachine<TState>.SetPerformBeforeEnter(TState, Func<Task>)
+  nameWithType.vb: StateMachine(Of TState).SetPerformBeforeEnter(TState, Func(Of Task))
+- uid: Eunomia.StateMachine`1.SetPerformBeforeEnter*
+  name: SetPerformBeforeEnter
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetPerformBeforeEnter_
+  commentId: Overload:Eunomia.StateMachine`1.SetPerformBeforeEnter
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.SetPerformBeforeEnter
+  fullName.vb: Eunomia.StateMachine(Of TState).SetPerformBeforeEnter
+  nameWithType: StateMachine<TState>.SetPerformBeforeEnter
+  nameWithType.vb: StateMachine(Of TState).SetPerformBeforeEnter
+- uid: Eunomia.StateMachine`1.SetPerformBeforeEnterSync(`0,Action)
+  name: SetPerformBeforeEnterSync(TState, Action)
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetPerformBeforeEnterSync__0_Action_
+  commentId: M:Eunomia.StateMachine`1.SetPerformBeforeEnterSync(`0,Action)
+  fullName: Eunomia.StateMachine<TState>.SetPerformBeforeEnterSync(TState, Action)
+  fullName.vb: Eunomia.StateMachine(Of TState).SetPerformBeforeEnterSync(TState, Action)
+  nameWithType: StateMachine<TState>.SetPerformBeforeEnterSync(TState, Action)
+  nameWithType.vb: StateMachine(Of TState).SetPerformBeforeEnterSync(TState, Action)
+- uid: Eunomia.StateMachine`1.SetPerformBeforeEnterSync*
+  name: SetPerformBeforeEnterSync
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetPerformBeforeEnterSync_
+  commentId: Overload:Eunomia.StateMachine`1.SetPerformBeforeEnterSync
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.SetPerformBeforeEnterSync
+  fullName.vb: Eunomia.StateMachine(Of TState).SetPerformBeforeEnterSync
+  nameWithType: StateMachine<TState>.SetPerformBeforeEnterSync
+  nameWithType.vb: StateMachine(Of TState).SetPerformBeforeEnterSync
+- uid: Eunomia.StateMachine`1.SetState(`0)
+  name: SetState(TState)
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetState__0_
+  commentId: M:Eunomia.StateMachine`1.SetState(`0)
+  fullName: Eunomia.StateMachine<TState>.SetState(TState)
+  fullName.vb: Eunomia.StateMachine(Of TState).SetState(TState)
+  nameWithType: StateMachine<TState>.SetState(TState)
+  nameWithType.vb: StateMachine(Of TState).SetState(TState)
+- uid: Eunomia.StateMachine`1.SetState*
+  name: SetState
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_SetState_
+  commentId: Overload:Eunomia.StateMachine`1.SetState
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.SetState
+  fullName.vb: Eunomia.StateMachine(Of TState).SetState
+  nameWithType: StateMachine<TState>.SetState
+  nameWithType.vb: StateMachine(Of TState).SetState
+- uid: Eunomia.StateMachine`1.throwIfLogged
+  name: throwIfLogged
+  href: api/Eunomia.StateMachine-1.html#Eunomia_StateMachine_1_throwIfLogged
+  commentId: F:Eunomia.StateMachine`1.throwIfLogged
+  fullName: Eunomia.StateMachine<TState>.throwIfLogged
+  fullName.vb: Eunomia.StateMachine(Of TState).throwIfLogged
+  nameWithType: StateMachine<TState>.throwIfLogged
+  nameWithType.vb: StateMachine(Of TState).throwIfLogged
+- uid: Eunomia.StateMachine`1.Transition
+  name: StateMachine<TState>.Transition
+  href: api/Eunomia.StateMachine-1.Transition.html
+  commentId: T:Eunomia.StateMachine`1.Transition
+  name.vb: StateMachine(Of TState).Transition
+  fullName: Eunomia.StateMachine<TState>.Transition
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition
+  nameWithType: StateMachine<TState>.Transition
+  nameWithType.vb: StateMachine(Of TState).Transition
+- uid: Eunomia.StateMachine`1.Transition.from
+  name: from
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_from
+  commentId: F:Eunomia.StateMachine`1.Transition.from
+  fullName: Eunomia.StateMachine<TState>.Transition.from
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.from
+  nameWithType: StateMachine<TState>.Transition.from
+  nameWithType.vb: StateMachine(Of TState).Transition.from
+- uid: Eunomia.StateMachine`1.Transition.performAfter
+  name: performAfter
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_performAfter
+  commentId: F:Eunomia.StateMachine`1.Transition.performAfter
+  fullName: Eunomia.StateMachine<TState>.Transition.performAfter
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.performAfter
+  nameWithType: StateMachine<TState>.Transition.performAfter
+  nameWithType.vb: StateMachine(Of TState).Transition.performAfter
+- uid: Eunomia.StateMachine`1.Transition.PerformAfter
+  name: PerformAfter()
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_PerformAfter
+  commentId: M:Eunomia.StateMachine`1.Transition.PerformAfter
+  fullName: Eunomia.StateMachine<TState>.Transition.PerformAfter()
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.PerformAfter()
+  nameWithType: StateMachine<TState>.Transition.PerformAfter()
+  nameWithType.vb: StateMachine(Of TState).Transition.PerformAfter()
+- uid: Eunomia.StateMachine`1.Transition.PerformAfter*
+  name: PerformAfter
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_PerformAfter_
+  commentId: Overload:Eunomia.StateMachine`1.Transition.PerformAfter
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.Transition.PerformAfter
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.PerformAfter
+  nameWithType: StateMachine<TState>.Transition.PerformAfter
+  nameWithType.vb: StateMachine(Of TState).Transition.PerformAfter
+- uid: Eunomia.StateMachine`1.Transition.performAfterSync
+  name: performAfterSync
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_performAfterSync
+  commentId: F:Eunomia.StateMachine`1.Transition.performAfterSync
+  fullName: Eunomia.StateMachine<TState>.Transition.performAfterSync
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.performAfterSync
+  nameWithType: StateMachine<TState>.Transition.performAfterSync
+  nameWithType.vb: StateMachine(Of TState).Transition.performAfterSync
+- uid: Eunomia.StateMachine`1.Transition.performBefore
+  name: performBefore
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_performBefore
+  commentId: F:Eunomia.StateMachine`1.Transition.performBefore
+  fullName: Eunomia.StateMachine<TState>.Transition.performBefore
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.performBefore
+  nameWithType: StateMachine<TState>.Transition.performBefore
+  nameWithType.vb: StateMachine(Of TState).Transition.performBefore
+- uid: Eunomia.StateMachine`1.Transition.PerformBefore
+  name: PerformBefore()
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_PerformBefore
+  commentId: M:Eunomia.StateMachine`1.Transition.PerformBefore
+  fullName: Eunomia.StateMachine<TState>.Transition.PerformBefore()
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.PerformBefore()
+  nameWithType: StateMachine<TState>.Transition.PerformBefore()
+  nameWithType.vb: StateMachine(Of TState).Transition.PerformBefore()
+- uid: Eunomia.StateMachine`1.Transition.PerformBefore*
+  name: PerformBefore
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_PerformBefore_
+  commentId: Overload:Eunomia.StateMachine`1.Transition.PerformBefore
+  isSpec: "True"
+  fullName: Eunomia.StateMachine<TState>.Transition.PerformBefore
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.PerformBefore
+  nameWithType: StateMachine<TState>.Transition.PerformBefore
+  nameWithType.vb: StateMachine(Of TState).Transition.PerformBefore
+- uid: Eunomia.StateMachine`1.Transition.performBeforeSync
+  name: performBeforeSync
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_performBeforeSync
+  commentId: F:Eunomia.StateMachine`1.Transition.performBeforeSync
+  fullName: Eunomia.StateMachine<TState>.Transition.performBeforeSync
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.performBeforeSync
+  nameWithType: StateMachine<TState>.Transition.performBeforeSync
+  nameWithType.vb: StateMachine(Of TState).Transition.performBeforeSync
+- uid: Eunomia.StateMachine`1.Transition.to
+  name: to
+  href: api/Eunomia.StateMachine-1.Transition.html#Eunomia_StateMachine_1_Transition_to
+  commentId: F:Eunomia.StateMachine`1.Transition.to
+  fullName: Eunomia.StateMachine<TState>.Transition.to
+  fullName.vb: Eunomia.StateMachine(Of TState).Transition.to
+  nameWithType: StateMachine<TState>.Transition.to
+  nameWithType.vb: StateMachine(Of TState).Transition.to
+- uid: Eunomia.StringExtensions
+  name: StringExtensions
+  href: api/Eunomia.StringExtensions.html
+  commentId: T:Eunomia.StringExtensions
+  fullName: Eunomia.StringExtensions
+  nameWithType: StringExtensions
+- uid: Eunomia.StringExtensions.RemoveXmlTags(System.String)
+  name: RemoveXmlTags(String)
+  href: api/Eunomia.StringExtensions.html#Eunomia_StringExtensions_RemoveXmlTags_System_String_
+  commentId: M:Eunomia.StringExtensions.RemoveXmlTags(System.String)
+  fullName: Eunomia.StringExtensions.RemoveXmlTags(System.String)
+  nameWithType: StringExtensions.RemoveXmlTags(String)
+- uid: Eunomia.StringExtensions.RemoveXmlTags*
+  name: RemoveXmlTags
+  href: api/Eunomia.StringExtensions.html#Eunomia_StringExtensions_RemoveXmlTags_
+  commentId: Overload:Eunomia.StringExtensions.RemoveXmlTags
+  isSpec: "True"
+  fullName: Eunomia.StringExtensions.RemoveXmlTags
+  nameWithType: StringExtensions.RemoveXmlTags
+- uid: Eunomia.StringExtensions.XmlTag
+  name: XmlTag
+  href: api/Eunomia.StringExtensions.html#Eunomia_StringExtensions_XmlTag
+  commentId: F:Eunomia.StringExtensions.XmlTag
+  fullName: Eunomia.StringExtensions.XmlTag
+  nameWithType: StringExtensions.XmlTag
+- uid: Eunomia.SystemRandomWrapper
+  name: SystemRandomWrapper
+  href: api/Eunomia.SystemRandomWrapper.html
+  commentId: T:Eunomia.SystemRandomWrapper
+  fullName: Eunomia.SystemRandomWrapper
+  nameWithType: SystemRandomWrapper
+- uid: Eunomia.SystemRandomWrapper.#ctor(Random)
+  name: SystemRandomWrapper(Random)
+  href: api/Eunomia.SystemRandomWrapper.html#Eunomia_SystemRandomWrapper__ctor_Random_
+  commentId: M:Eunomia.SystemRandomWrapper.#ctor(Random)
+  fullName: Eunomia.SystemRandomWrapper.SystemRandomWrapper(Random)
+  nameWithType: SystemRandomWrapper.SystemRandomWrapper(Random)
+- uid: Eunomia.SystemRandomWrapper.#ctor*
+  name: SystemRandomWrapper
+  href: api/Eunomia.SystemRandomWrapper.html#Eunomia_SystemRandomWrapper__ctor_
+  commentId: Overload:Eunomia.SystemRandomWrapper.#ctor
+  isSpec: "True"
+  fullName: Eunomia.SystemRandomWrapper.SystemRandomWrapper
+  nameWithType: SystemRandomWrapper.SystemRandomWrapper
+- uid: Eunomia.SystemRandomWrapper.Eunomia#IRandom#Next
+  name: IRandom.Next()
+  href: api/Eunomia.SystemRandomWrapper.html#Eunomia_SystemRandomWrapper_Eunomia_IRandom_Next
+  commentId: M:Eunomia.SystemRandomWrapper.Eunomia#IRandom#Next
+  name.vb: Eunomia.IRandom.Next()
+  fullName: Eunomia.SystemRandomWrapper.Eunomia.IRandom.Next()
+  nameWithType: SystemRandomWrapper.IRandom.Next()
+  nameWithType.vb: SystemRandomWrapper.Eunomia.IRandom.Next()
+- uid: Eunomia.SystemRandomWrapper.Eunomia#IRandom#Next(System.Int32)
+  name: IRandom.Next(Int32)
+  href: api/Eunomia.SystemRandomWrapper.html#Eunomia_SystemRandomWrapper_Eunomia_IRandom_Next_System_Int32_
+  commentId: M:Eunomia.SystemRandomWrapper.Eunomia#IRandom#Next(System.Int32)
+  name.vb: Eunomia.IRandom.Next(Int32)
+  fullName: Eunomia.SystemRandomWrapper.Eunomia.IRandom.Next(System.Int32)
+  nameWithType: SystemRandomWrapper.IRandom.Next(Int32)
+  nameWithType.vb: SystemRandomWrapper.Eunomia.IRandom.Next(Int32)
+- uid: Eunomia.SystemRandomWrapper.Eunomia#IRandom#Next(System.Int32,System.Int32)
+  name: IRandom.Next(Int32, Int32)
+  href: api/Eunomia.SystemRandomWrapper.html#Eunomia_SystemRandomWrapper_Eunomia_IRandom_Next_System_Int32_System_Int32_
+  commentId: M:Eunomia.SystemRandomWrapper.Eunomia#IRandom#Next(System.Int32,System.Int32)
+  name.vb: Eunomia.IRandom.Next(Int32, Int32)
+  fullName: Eunomia.SystemRandomWrapper.Eunomia.IRandom.Next(System.Int32, System.Int32)
+  nameWithType: SystemRandomWrapper.IRandom.Next(Int32, Int32)
+  nameWithType.vb: SystemRandomWrapper.Eunomia.IRandom.Next(Int32, Int32)
+- uid: Eunomia.SystemRandomWrapper.Eunomia#IRandom#Next*
+  name: IRandom.Next
+  href: api/Eunomia.SystemRandomWrapper.html#Eunomia_SystemRandomWrapper_Eunomia_IRandom_Next_
+  commentId: Overload:Eunomia.SystemRandomWrapper.Eunomia#IRandom#Next
+  isSpec: "True"
+  name.vb: Eunomia.IRandom.Next
+  fullName: Eunomia.SystemRandomWrapper.Eunomia.IRandom.Next
+  nameWithType: SystemRandomWrapper.IRandom.Next
+  nameWithType.vb: SystemRandomWrapper.Eunomia.IRandom.Next
+- uid: Eunomia.SystemRandomWrapper.random
+  name: random
+  href: api/Eunomia.SystemRandomWrapper.html#Eunomia_SystemRandomWrapper_random
+  commentId: F:Eunomia.SystemRandomWrapper.random
+  fullName: Eunomia.SystemRandomWrapper.random
+  nameWithType: SystemRandomWrapper.random
+- uid: Eunomia.UrlUtility
+  name: UrlUtility
+  href: api/Eunomia.UrlUtility.html
+  commentId: T:Eunomia.UrlUtility
+  fullName: Eunomia.UrlUtility
+  nameWithType: UrlUtility
+- uid: Eunomia.UrlUtility.ComposeUrl(Eunomia.UrlUtility.Protocol,System.Boolean,System.String,System.Int32)
+  name: ComposeUrl(UrlUtility.Protocol, Boolean, String, Int32)
+  href: api/Eunomia.UrlUtility.html#Eunomia_UrlUtility_ComposeUrl_Eunomia_UrlUtility_Protocol_System_Boolean_System_String_System_Int32_
+  commentId: M:Eunomia.UrlUtility.ComposeUrl(Eunomia.UrlUtility.Protocol,System.Boolean,System.String,System.Int32)
+  fullName: Eunomia.UrlUtility.ComposeUrl(Eunomia.UrlUtility.Protocol, System.Boolean, System.String, System.Int32)
+  nameWithType: UrlUtility.ComposeUrl(UrlUtility.Protocol, Boolean, String, Int32)
+- uid: Eunomia.UrlUtility.ComposeUrl*
+  name: ComposeUrl
+  href: api/Eunomia.UrlUtility.html#Eunomia_UrlUtility_ComposeUrl_
+  commentId: Overload:Eunomia.UrlUtility.ComposeUrl
+  isSpec: "True"
+  fullName: Eunomia.UrlUtility.ComposeUrl
+  nameWithType: UrlUtility.ComposeUrl
+- uid: Eunomia.UrlUtility.Protocol
+  name: UrlUtility.Protocol
+  href: api/Eunomia.UrlUtility.Protocol.html
+  commentId: T:Eunomia.UrlUtility.Protocol
+  fullName: Eunomia.UrlUtility.Protocol
+  nameWithType: UrlUtility.Protocol
+- uid: Eunomia.UrlUtility.Protocol.Http
+  name: Http
+  href: api/Eunomia.UrlUtility.Protocol.html#Eunomia_UrlUtility_Protocol_Http
+  commentId: F:Eunomia.UrlUtility.Protocol.Http
+  fullName: Eunomia.UrlUtility.Protocol.Http
+  nameWithType: UrlUtility.Protocol.Http
+- uid: Eunomia.UrlUtility.Protocol.WebSocket
+  name: WebSocket
+  href: api/Eunomia.UrlUtility.Protocol.html#Eunomia_UrlUtility_Protocol_WebSocket
+  commentId: F:Eunomia.UrlUtility.Protocol.WebSocket
+  fullName: Eunomia.UrlUtility.Protocol.WebSocket
+  nameWithType: UrlUtility.Protocol.WebSocket
+- uid: Eunomia.UrlUtility.ProtocolPrefix(Eunomia.UrlUtility.Protocol,System.Boolean)
+  name: ProtocolPrefix(UrlUtility.Protocol, Boolean)
+  href: api/Eunomia.UrlUtility.html#Eunomia_UrlUtility_ProtocolPrefix_Eunomia_UrlUtility_Protocol_System_Boolean_
+  commentId: M:Eunomia.UrlUtility.ProtocolPrefix(Eunomia.UrlUtility.Protocol,System.Boolean)
+  fullName: Eunomia.UrlUtility.ProtocolPrefix(Eunomia.UrlUtility.Protocol, System.Boolean)
+  nameWithType: UrlUtility.ProtocolPrefix(UrlUtility.Protocol, Boolean)
+- uid: Eunomia.UrlUtility.ProtocolPrefix*
+  name: ProtocolPrefix
+  href: api/Eunomia.UrlUtility.html#Eunomia_UrlUtility_ProtocolPrefix_
+  commentId: Overload:Eunomia.UrlUtility.ProtocolPrefix
+  isSpec: "True"
+  fullName: Eunomia.UrlUtility.ProtocolPrefix
+  nameWithType: UrlUtility.ProtocolPrefix
+- uid: Eunomia.WordList
+  name: WordList
+  href: api/Eunomia.WordList.html
+  commentId: T:Eunomia.WordList
+  fullName: Eunomia.WordList
+  nameWithType: WordList
+- uid: Eunomia.WordList.#ctor(IEnumerable{System.String})
+  name: WordList(IEnumerable<String>)
+  href: api/Eunomia.WordList.html#Eunomia_WordList__ctor_IEnumerable_System_String__
+  commentId: M:Eunomia.WordList.#ctor(IEnumerable{System.String})
+  name.vb: WordList(IEnumerable(Of String))
+  fullName: Eunomia.WordList.WordList(IEnumerable<System.String>)
+  fullName.vb: Eunomia.WordList.WordList(IEnumerable(Of System.String))
+  nameWithType: WordList.WordList(IEnumerable<String>)
+  nameWithType.vb: WordList.WordList(IEnumerable(Of String))
+- uid: Eunomia.WordList.#ctor*
+  name: WordList
+  href: api/Eunomia.WordList.html#Eunomia_WordList__ctor_
+  commentId: Overload:Eunomia.WordList.#ctor
+  isSpec: "True"
+  fullName: Eunomia.WordList.WordList
+  nameWithType: WordList.WordList
+- uid: Eunomia.WordList.All
+  name: All
+  href: api/Eunomia.WordList.html#Eunomia_WordList_All
+  commentId: F:Eunomia.WordList.All
+  fullName: Eunomia.WordList.All
+  nameWithType: WordList.All
+- uid: Eunomia.WordList.ByLength
+  name: ByLength
+  href: api/Eunomia.WordList.html#Eunomia_WordList_ByLength
+  commentId: F:Eunomia.WordList.ByLength
+  fullName: Eunomia.WordList.ByLength
+  nameWithType: WordList.ByLength
+- uid: Eunomia.WordList.WithLength(System.Int32)
+  name: WithLength(Int32)
+  href: api/Eunomia.WordList.html#Eunomia_WordList_WithLength_System_Int32_
+  commentId: M:Eunomia.WordList.WithLength(System.Int32)
+  fullName: Eunomia.WordList.WithLength(System.Int32)
+  nameWithType: WordList.WithLength(Int32)
+- uid: Eunomia.WordList.WithLength*
+  name: WithLength
+  href: api/Eunomia.WordList.html#Eunomia_WordList_WithLength_
+  commentId: Overload:Eunomia.WordList.WithLength
+  isSpec: "True"
+  fullName: Eunomia.WordList.WithLength
+  nameWithType: WordList.WithLength

@@ -1,0 +1,385 @@
+{
+  "sitemap": {
+    "baseUrl": "https://adorkable.github.io/EunomiaCSharp/",
+    "changefreq": "weekly",
+    "priority": 0.1
+  },
+  "homepages": [],
+  "source_base_path": "/github/workspace/.docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.ArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.ArrayExtensions.html",
+          "hash": "LA1CfQPqpe7vM4E68ZaoPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.Arrays.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.Arrays.html",
+          "hash": "qycNmbdyvxHCmVEn+bJX3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.Dispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.Dispatcher.html",
+          "hash": "uGTe7teA6/fVxYSh34Xsmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.FileUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.FileUtility.html",
+          "hash": "qonLUwfuugPPYcXF3rlLTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.FloatExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.FloatExtensions.html",
+          "hash": "G5uemEH3xRa2denJJxvtng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.IEnumerableExtensions.Found-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.IEnumerableExtensions.Found-1.html",
+          "hash": "KSERKSruAD4TSOMcPu4q/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.IEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.IEnumerableExtensions.html",
+          "hash": "unvTwmFhd7fK2Up/RsmvsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.IRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.IRandom.html",
+          "hash": "b4FinX/lkOb6YCxcB/e7Wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.IntExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.IntExtensions.html",
+          "hash": "sCvi0VA+mx/1xHQoNSwwJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.ListExtensions.html",
+          "hash": "Xt589hHSTJLI69w12jD2yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.Math.html",
+          "hash": "qEkznI98WyRLWt2H+V3EIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.StateMachine-1.AttemptedTransitionDuringTransitionException.html",
+          "hash": "iHhe03ODwzf6m5wKwxPkig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.StateMachine-1.IState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.StateMachine-1.IState.html",
+          "hash": "kIh00VFuT9RSfW5A2OHYYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.StateMachine-1.InvalidStateException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.StateMachine-1.InvalidStateException.html",
+          "hash": "1cl6k1Tl6TyCI6nxC45oUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.StateMachine-1.InvalidTransitionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.StateMachine-1.InvalidTransitionException.html",
+          "hash": "3keFRc6lfTb1CZ0QmPilOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.StateMachine-1.Transition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.StateMachine-1.Transition.html",
+          "hash": "3JTPoOagk9ipL6cFIOnNSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.StateMachine-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.StateMachine-1.html",
+          "hash": "KaZgoirgtP7muG2K5AEymg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.StringExtensions.html",
+          "hash": "dLvRQ0yxAwvLTq6W8ei+1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.SystemRandomWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.SystemRandomWrapper.html",
+          "hash": "KD6Fle9ZyO4igpLNNv+6VA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.UrlUtility.Protocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.UrlUtility.Protocol.html",
+          "hash": "hF4INLpkI99qU77fkU23ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.UrlUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.UrlUtility.html",
+          "hash": "mzgBp4A04kFMyRPmUaAu+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.WordList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.WordList.html",
+          "hash": "lJh5/Lv/YuqE1ZgrJM4G9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Eunomia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Eunomia.html",
+          "hash": "0UCvLayXWeU3mhfbdINWPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "bXdRlt96Ma226kTJzFFeMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "kGDZXOa+jCovCmU/PujGDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "6FRg5Oe147aVMtqKEzg5jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "2TkTFJDtGR39Xh42YtUXbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 23,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
