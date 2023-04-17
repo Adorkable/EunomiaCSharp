@@ -1,5 +1,6 @@
 # macOS index files
 /**/._*.*
+/**/._*
 
 .editorconfig
 bin.meta
@@ -403,3 +404,6 @@ FodyWeavers.xsd
 
 # Local tools
 Tools/
+
+# Documentation
+/Documentation
