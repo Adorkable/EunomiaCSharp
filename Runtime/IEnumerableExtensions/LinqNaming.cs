@@ -24,6 +24,11 @@ namespace Eunomia
             return enumerableToReduce.Aggregate(start, reduce);
         }
 
+        public static IEnumerable<Q> Map<T, Q>(this IEnumerable<T> enumerableToMap, )
+        {
+            return enumerableToMap.Select();
+        }
+
         public static IEnumerable<T> FlatMap<T>(this IEnumerable<IEnumerable<T>> enumerableToFlatten)
         {
             return enumerableToFlatten.SelectMany(value => value);

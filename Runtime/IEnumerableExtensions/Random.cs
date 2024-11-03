@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -10,7 +10,7 @@ namespace Eunomia
     {
         private static IRandom fallbackRandom;
 
-        private static IRandom GetFallbackRandom()
+        public static IRandom GetFallbackRandom()
         {
             if (fallbackRandom != null)
             {
